@@ -1,6 +1,6 @@
 # Roadmap — Phased Delivery Plan
 
-Version: 0.10.0-approved | Date: 2026-09-21 | Status: Formula rendering added, vision v0.9.0 applies
+Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto pipeline, no reviewer queue
 
 ## Phase 0 — Supabase Setup plus DPDP Readiness (prerequisite) — APPROVED
 - Provision development, staging, production projects.
@@ -19,7 +19,7 @@ Includes:
 - AI doubt assistance, test and mock system subset (single-definition rule) with formula rendering.
 - Flashcards with spaced repetition.
 - Weekly timetable, date exceptions, attendance with targets, self-marked only.
-- Student contributor plus internal reviewer flows for content approval. No college staff accounts.
+- Student uploads publish via automated checks only. Reports resolve via auto-hide and auto-takedown rules. No college staff accounts. No reviewer queue.
 
 Exit criteria:
 - Onboarding to dashboard works, including reset and logout-all.
@@ -28,7 +28,7 @@ Exit criteria:
 - Timed MCQ test with history works, including formula questions. Report-wrong-question creates reviewer triage item.
 - Spaced repetition rescheduling works, including formula cards.
 - Holiday and cancelled classes do not lower attendance.
-- Contributor submit to reviewer approve works.
+- Contributor upload auto-approves via checks. Report-wrong-question auto-creates triage item with auto-hide rules.
 - Privacy request creates trackable grievance with 90-day response cap. Access export includes sharing list.
 
 ## Phase 2 — Progress and Opportunities
@@ -54,7 +54,7 @@ Includes:
 - SMS notifications deferred. Phone OTP excluded per v0.4.0 auth decision.
 - Long-answer auto-evaluation deferred to manual review in Phase 1.
 
-## Dependency Notes — UPDATED student-only
-- Community launch requires moderation spec already approved in v0.2.0. Moderation by internal ops, no college staff.
-- Content library uses student contributors plus internal reviewers. No college staff accounts.
+## Dependency Notes — UPDATED full-auto
+- Community launch uses auto-filters plus auto-hide on reports. No human moderation queue.
+- Content library uses student uploads plus automated checks. No reviewer accounts. No college staff accounts.
 - Attendance: self-marked only. No faculty verification.

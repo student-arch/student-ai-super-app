@@ -1,6 +1,6 @@
 # Supabase Backend Plan (Specification Only, No Code)
 
-Version: 0.11.0-approved | Date: 2026-09-21 | Status: Capacity targets added, no code
+Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto checks, no reviewer queue
 
 This document records Supabase as the approved backend platform for the Student AI Super-App MVP. It contains planning descriptions only. No SQL, no policy code, no API code, no keys.
 
@@ -39,24 +39,24 @@ Related docs: ARCHITECTURE-PLAN.md for module boundaries, DATA-MODEL-SPEC.md for
 
 ## 4. Storage Bucket Plan (Names Are Labels, Not Code)
 
-- question-papers-approved: read by all authenticated students, write by contributor and reviewer workflow only.
+- question-papers-approved: read by all authenticated students, write by student upload with automated checks only. No reviewer queue.
 - study-materials-approved: same as above.
 - personal-uploads-private: owner-only. Holds personal PDFs, photos for OCR, drafts.
-- college-id-private: owner plus reviewer and admin for verification only. Never public.
+- college-id-private: owner-only plus automated verification checks. Never public. No reviewer browsing.
 - note-exports-private: owner-only generated exports.
 - flashcard-media-private: owner-only images attached to cards.
-- community-media-gated: reserved for Phase 3. Private until moderation approval.
+- community-media-gated: reserved for Phase 3. Auto-filtered, auto-hidden on report thresholds.
 
-Rules: private-by-default. Approval status in database gates promotion from pending to shared. Download allowed subject to rights. Retention periods per DATA-MODEL-SPEC.md Open Decisions, erasure at purpose end.
+Rules: private-by-default. Automated checks set approval status from pending to approved or rejected with reason codes. Download allowed subject to rights. Retention periods per DATA-MODEL-SPEC.md Open Decisions, erasure at purpose end.
 
-## 5. Access Control Principles (Described, Not Coded) — student-only
+## 5. Access Control Principles (Described, Not Coded) — full-auto student-only
 
-- Student: only login type. Full control over own profile, academic records, assignments, notes, decks, cards, timetable, self-marked attendance, attempts, annotations, personal files.
-- Contributor (student role): create question papers and materials with status pending. Cannot publish directly.
-- Reviewer (internal ops, not college staff): change status from pending to approved or rejected with reason. Cannot edit student-private data.
-- Administrator (internal ops only): view reports, change report status, remove approved content with audit reason. No bulk export of IDs. No college staff accounts.
-- Shared library reads require approved status. Personal reads require ownership. Verification files require reviewer or admin task context.
-- All status changes record who, when, and why for auditability.
+- Student: only login type. Full control over own data plus upload to shared library via automated checks. No reviewer or admin logins.
+- Automated checks: file type and size, duplicate detection, text-extraction sanity, spam and abuse filters. Sets status to approved or rejected with reason codes. Cannot edit student-private data beyond checks.
+- Reports: report counts trigger auto-hide and auto-takedown rules with audit log. No human triage in MVP.
+- Shared library reads require auto-approved status. Personal reads require ownership. Verification files are owner-only plus automated checks.
+- All status changes record check type, reason code, and timestamp for auditability.
+- DPDP grievance and breach contacts are legal owners, not logins, with no content powers.
 
 ## 6. Data Organization Notes
 

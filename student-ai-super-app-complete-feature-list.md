@@ -1,12 +1,12 @@
 Student AI Super-App — Complete Feature List
 A comprehensive student platform covering exam preparation, AI-powered learning, attendance tracking, career development, student communities, events, and personal productivity.
-Student-only app: students are the only login type. No college staff login. Content review and safety are handled by internal ops, not college staff.
+Student-only app: students are the only login type. No college staff login. Content publishing and safety run on automated checks with no human reviewer queue.
 
 1. Dashboard & Student Profile
 Personalized Student Dashboard
 Student Registration and Login — Google login and email login only, no phone OTP
 Password Reset and Logout All Devices
-College ID Verification by Internal Reviewer Only
+College ID Verification by Automated Checks Only
 Department / Branch Selection
 Academic Year and Semester Selection
 Subjects and Syllabus Management
@@ -42,7 +42,7 @@ Question Paper Search and Filtering
 Question Paper Bookmarking
 Downloadable Question Papers
 Question Paper PDF Viewer with Highlight, Note, and Bookmark Anchors
-Student Contributor Submit Flow with Internal Reviewer Approve and Reject
+Student Upload with Automated Checks and Auto-Approve or Auto-Reject
 Recently Viewed Papers
 Organize Saved Question Papers
 2.2 Study Materials
@@ -62,7 +62,7 @@ Formula Extraction
 Formula Rendering with Live Preview, Crisp Display, Text Fallback, and Error Preview
 Important Questions Extraction
 Study Material Bookmarking
-Student Contributor Submit Flow with Internal Reviewer Approve and Reject
+Student Upload with Automated Checks and Auto-Approve or Auto-Reject
 Offline Study Material Access
 2.3 Notes Generation
 AI-Generated Notes — Defined Once Here, Referenced in Section 3
@@ -307,7 +307,7 @@ Discussion Posts
 Questions and Answers
 Community Announcements
 Community Event Sharing
-Report Post and User, Block User, Spam Filter, Removal Audit Trail by Internal Ops
+Report Post and User, Block User, Spam Filter, Auto-Hide and Auto-Takedown with Audit Trail
 
 9. Project Development & Hackathon Support
 Project Idea Discovery

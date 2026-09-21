@@ -1,11 +1,11 @@
 # Data Model Spec (Specification Only)
 
-Version: 0.10.0-approved | Date: 2026-09-21 | Status: Formula fields added, vision v0.9.0 applies, no implementation
+Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto approval fields, no implementation
 
 Conventions: each entity lists key attributes in plain language. No SQL, no code. Supabase mapping: each entity corresponds to managed database tables with owner references and approval status fields, files live in storage buckets per SUPABASE-PLAN.md Section 4.
 
 ## 1. Student Profile
-- Identifier, name, contact, college name, college ID reference, verification status by internal reviewer only, no college staff access (approved student-only).
+- Identifier, name, contact, college name, college ID reference, verification status by automated checks only, no human review and no college staff access (approved full-auto).
 - Department and branch, academic year, semester.
 - Enrolled subjects with syllabus version.
 - Skills, interests, academic goals, career goals.
@@ -23,14 +23,14 @@ Conventions: each entity lists key attributes in plain language. No SQL, no code
 
 ## 2. Question Paper
 - Subject, university, branch, semester, year, topic and chapter tags.
-- File reference, uploader, approval status (approved), bookmark links.
+- File reference, uploader, approval status by automated checks (auto-approved or auto-rejected with reason codes), bookmark links.
 - Annotation links (highlight, note anchors).
 - View history per student.
 
 ## 3. Study Material
 - Subject, topic, chapter, syllabus linkage.
 - File reference, summary, key points, definitions, formulas, important questions.
-- Uploader, approval status (approved), bookmarks, annotations.
+- Uploader, approval status by automated checks, bookmarks, annotations.
 
 ## 4. Note
 - Owner, subject, chapter, topic, source reference (PDF, material, manual).

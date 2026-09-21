@@ -1,6 +1,6 @@
 # PRD — MVP Scope
 
-Version: 0.10.0-approved | Date: 2026-09-21 | Status: Formula rendering added, English-only, vision v0.9.0 applies
+Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto content pipeline, student-only, no reviewer queue
 
 This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.9.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.9.1 are now included below as approved scope for new docs.
 
@@ -90,11 +90,11 @@ Acceptance: marking holiday does not lower percentage; setting 75% target highli
 - Career roadmap full system, events discovery, opportunities board, team-up and community, project workspace, GK daily feed, fitness tracking, global analytics suite.
 - These remain in vision list and are phased in ROADMAP.md.
 
-## 5. User Roles (MVP) — APPROVED student-only
-- Student: only app user. All MVP features. No college staff login.
-- Contributor (student role): student submits PYQs and materials, views own submission status.
-- Reviewer (internal ops, not college staff): internal team or trusted students approve or reject with reason. No college staff account.
-- Administrator (internal ops only): manages reports and removals prep for Phase 3. No community moderation UI in MVP. No college staff account.
+## 5. User Roles (MVP) — APPROVED full-auto student-only
+- Student: only app login. All MVP features. No college staff login. No reviewer or admin logins.
+- Uploads: student uploads go live via automated checks only — file type and size, duplicate detection, text-extraction sanity, spam and abuse filters. No human approve queue.
+- Reports: report-wrong-question and report-content trigger auto-hide plus auto-takedown rules with audit log. No human triage queue in MVP.
+- DPDP legal contacts (grievance response and breach reporting owners) remain named humans as required by law. They are not app moderation roles and have no content-approval queue. See COMPLIANCE-DPDP.md.
 
 ## 6. Non-Goals for This Document
 - No UI design, no API contracts, no database implementation. See ARCHITECTURE-PLAN.md and DATA-MODEL-SPEC.md for plans.

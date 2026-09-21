@@ -1,6 +1,6 @@
 # Founder Startup Gaps — What You Are Missing to Start Up
 
-Version: 0.11.0-approved | Date: 2026-09-21 | Status: Capacity targets added, no code
+Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto ops, no reviewer queue
 
 You have product vision plus MVP scope plus backend plus DPDP plan. As a first-time founder, these non-product pieces are still missing. All proposals below are doc-only. No code. Vision list not modified.
 
@@ -48,16 +48,16 @@ Missing: 5 numbers to track weekly.
 - Trust: correction reports, grievance response time.
 - No vanity metrics: downloads alone mean nothing.
 
-## 7. Team and Ops — Who Does What
-Missing: named owners.
-- Builder, reviewer for content, support and grievance owner, incident plus Board reporting owners from COMPLIANCE-DPDP.md Sec 6, access review owner.
-- If solo: you own all five until first teammate. Document handover points.
+## 7. Team and Ops — Full-Auto, Minimal Humans
+Content and moderation run without humans: automated checks publish uploads, auto-hide and auto-takedown resolve reports.
+Remaining named humans required by DPDP law only: support and grievance owner, incident plus Board reporting owners from COMPLIANCE-DPDP.md Sec 6, access review owner. They hold no content-approval queue.
+If solo: you own the legal contacts plus builder duties until first teammate.
 
 ## 8. Risks for Students
-- Wrong answers in tests and notes. Mitigation: source links, reviewer approval, report wrong content button in Phase 1.
+- Wrong answers in tests and notes. Mitigation: source links, automated checks, report-wrong-content with auto-hide in Phase 1.
 - Attendance disputes if self-marked. Keep default self-marked per ROADMAP.md, show history for faculty check.
 - Under-18 accounts. Keep age gate plus parental consent per COMPLIANCE-DPDP.md Sec 8.
-- Community abuse. Keep community in Phase 3 only after moderation spec already approved.
+- Community abuse. Keep community in Phase 3 with auto-filters plus auto-hide on reports, no human queue.
 
 ## 9. Next 30 Days Checklist
 1. Pick pilot college, branch, semester. Record in Section 10 below after you name it.

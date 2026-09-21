@@ -1,6 +1,6 @@
 # Architecture Plan (No Implementation)
 
-Version: 0.10.0-approved | Date: 2026-09-21 | Status: Formula rendering added, English-only, vision v0.9.0 applies
+Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto content pipeline, no reviewer queue
 
 Backend choice: Supabase. Details in SUPABASE-PLAN.md. This file keeps module boundaries and cross-cutting rules.
 
@@ -20,12 +20,11 @@ Backend choice: Supabase. Details in SUPABASE-PLAN.md. This file keeps module bo
 
 Rule: Assessment never writes timetable data. Attendance never writes test data. AI outputs are stored as assistive artifacts linked to source materials. Date-specific exceptions never mutate weekly template.
 
-## 2. User Roles — APPROVED student-only 2026-09-21
+## 2. User Roles — APPROVED full-auto student-only 2026-09-21
 
-- Student: only app user. Uses all released features.
-- Contributor (student): student submits PYQs and materials.
-- Reviewer (internal ops, not college staff): internal team or trusted students approve or reject with reason.
-- Administrator (internal ops only): manages users, reports, safety prep for Phase 3. No college staff login anywhere.
+- Student: only app login. Uses all released features.
+- No contributor queue role, no reviewer role, no administrator login in MVP. Uploads publish via automated checks. Reports resolve via auto-hide and auto-takedown rules with audit log.
+- DPDP legal contacts for grievance and breach response remain named humans as required by law, with no content-approval powers. See COMPLIANCE-DPDP.md.
 
 No permissions are implemented in this doc. This is a specification.
 
