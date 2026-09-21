@@ -1,6 +1,6 @@
 # PRD — MVP Scope
 
-Version: 0.16.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, flashcards fully out
+Version: 0.18.0-approved | Date: 2026-09-21 | Status: First year full free access, paid deferred to year 2
 
 This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.15.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.10.0 are now included below as approved scope for new docs.
 
@@ -104,5 +104,5 @@ Acceptance: marking holiday does not lower percentage; setting 75% target highli
 - Language locked in v0.9.1: English only for MVP. Regional languages deferred to Phase 2 proposal, see ROADMAP.md.
 
 ## 8. Open Questions Still Requiring User Decision
-1. AI daily limits for free users? Starter applied: 5 notes, 3 tests, 5 summaries per day. Paid tier open.
+1. First-year free enforced: 12 months full free access from launch within 5 notes, 3 tests, 5 summaries per day and 100 MB caps. Paid tier deferred to year 2.
 2. Offline requirement for MVP?

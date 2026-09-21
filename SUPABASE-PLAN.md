@@ -1,6 +1,6 @@
 # Supabase Backend Plan (Specification Only, No Code)
 
-Version: 0.16.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, flashcards fully out
+Version: 0.18.0-approved | Date: 2026-09-21 | Status: First year free, 1 paid prod max
 
 This document records Supabase as the approved backend platform for the Student AI Super-App MVP. It contains planning descriptions only. No SQL, no policy code, no API code, no keys.
 
@@ -98,10 +98,11 @@ Rules: private-by-default. Automated checks set approval status from pending to 
 
 ## 10. Open Decisions, Starter Locks, and Capacity Targets
 
-Starter locks APPROVED 2026-09-21, changeable:
-- AI free: 5 notes, 3 tests, 5 summaries per student per day. Paid tier to be decided.
+Starter locks APPROVED 2026-09-21, enforced for first-year free access:
+- AI free: 5 notes, 3 tests, 5 summaries per student per day for 12 months from launch. Paid tier deferred to year 2.
 - Storage: 100 MB per student for personal uploads.
 - Channels: email plus push only.
+- Projects: 1 paid prod max plus free dev and staging. No 3-paid setup in initial version.
 
 Capacity targets APPROVED 2026-09-21 (plan-dependent, load-test before launch):
 - Phase 1 target: 1,000 registered students on paid Supabase project. Planning max: ~100 GB personal storage plus shared PYQ library, ~13,000 AI calls per day at full free-limit use.

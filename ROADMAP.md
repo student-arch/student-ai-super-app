@@ -1,6 +1,6 @@
 # Roadmap — Phased Delivery Plan
 
-Version: 0.16.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, flashcards fully out
+Version: 0.18.0-approved | Date: 2026-09-21 | Status: First year free, paid in year 2
 
 ## Phase 0 — Supabase Setup plus DPDP Readiness (prerequisite) — APPROVED
 - Provision development, staging, production projects.
@@ -11,8 +11,8 @@ Version: 0.16.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, flashcar
 - Pilot scope: 1 college, 1 branch, 1 semester (Pilot-College-TBD until named). Goal 100 waitlist.
 - DPDP build-now checklist per COMPLIANCE-DPDP.md Section 11: purposes recorded, processor contracts reviewed, access owners named with ID masking, breach playbook with without-delay user notice and 72-hour Board path, retention categories, age gate with parental consent, access export plus 90-day grievance plus nominee, transfer map, SDF watch. Build now for duties scheduled 13 May 2027.
 
-## Phase 1 — MVP (Learn, Practice, Test, Attend) — APPROVED
-Objective: usable daily study loop.
+## Phase 1 — MVP First-Year Free (Learn, Practice, Test, Attend) — APPROVED
+Objective: usable daily study loop with 12 months full free access from launch. Paid tier deferred to year 2.
 
 Includes:
 - Dashboard and profile plus approved additions: auth recovery and verification, CGPA tracker, assignments tracker.

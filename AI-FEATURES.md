@@ -1,6 +1,6 @@
 # AI Features Catalog (Specification Only, No Code)
 
-Version: 0.15.0-approved | Date: 2026-09-21 | Status: Flashcards removed, cost tiers marked
+Version: 0.18.0-approved | Date: 2026-09-21 | Status: First year free enforced, paid in year 2
 
 Scope: every AI-powered feature in vision v0.10.0 plus MVP subset. Student-only, English only, full-auto with no reviewer queue. Server-side AI orchestration only with per-student counters. No prompts, no model selection, no code.
 
@@ -61,11 +61,11 @@ Related: PRD-MVP.md Sec 3.3-3.7, vision Sec 2.2-2.4 plus Sec 3 plus Sec 4, ARCHI
 - DPDP: lawful ground per purpose, accuracy for decisions, export with sharing list, 90-day grievance, nominee, age gate with parental consent. See COMPLIANCE-DPDP.md.
 - AI disclaimer required on notes, tests, doubt screens: AI may be wrong, verify with syllabus and faculty display info.
 
-## 7. Cost Tiers (Changeable Starters)
+## 7. Cost Tiers — First-Year Free Enforced
 
-- Free starter: 5 notes, 3 tests, 5 summaries per student per day. Doubt follow-ups capped. Paid tier open.
-- 10k lowest-cost variant: 5 notes plus 2 tests per week, summaries shared-library only, manual flashcards preferred. See prior cost discussion, to be locked separately if approved.
-- Cut order if AI spend spikes: lecture-link notes, PDF-to-full-test, bulk PDF-to-deck, repeated re-explains, daily weak-topic pushes.
+- Free enforced for 12 months from launch: 5 notes, 3 tests, 5 summaries per student per day. Doubt follow-ups capped at 1 plus 1. Paid tier deferred to year 2.
+- Active cuts for cost: no lecture-link notes, no PDF-to-full-test, no bulk PDF-to-deck, no repeated re-explains, no daily weak-topic pushes in free initial.
+- 10k lowest-cost variant stays optional: 5 notes plus 2 tests per week, summaries shared-library only. To be locked separately if approved.
 
 ## 8. Change Impact
 
