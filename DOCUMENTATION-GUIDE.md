@@ -1,0 +1,50 @@
+# Documentation Guide — Consistency and Approval Workflow
+
+Version: 0.8.1-approved | Date: 2026-09-21
+
+## 1. Scope
+- Create and maintain `.md` files only. No code generation.
+- Existing file `student-ai-super-app-complete-feature-list.md` is read-only unless user explicitly approves a change.
+
+## 2. Approval Workflow
+1. Present proposed changes with reasons. Reference affected vision sections.
+2. Record proposals in `FEATURE-GAPS.md` as Proposals only.
+3. Wait for explicit user approval stating what is approved.
+4. After approval, update the relevant `.md` files and bump version and date.
+5. If proposal is rejected, mark it as Declined with date, do not apply.
+
+## 3. Consistency Rules
+- Use vision list section numbers when referencing features (for example, Section 2.4).
+- Use term `date-specific exception` for one-day timetable changes, and `weekly template` for recurring timetable.
+- Preserve attendance rule: cancelled and holidays never count as absences. Attendance is self-marked only. No faculty verification.
+- Student-only rule: no college staff login. Reviewer and admin are internal ops, not college staff. Faculty names are display-only in timetable.
+- PRD-MVP, ARCHITECTURE-PLAN, DATA-MODEL-SPEC, ROADMAP, SUPABASE-PLAN must agree on MVP scope. If one changes, update the others in the same approval batch. COMPLIANCE-DPDP.md is authoritative for DPDP duties.
+- Each doc header carries Version, Date, Status.
+
+## 4. File Ownership
+- `README.md`: index, no feature details.
+- `PRD-MVP.md`: what MVP includes and acceptance checks.
+- `FEATURE-GAPS.md`: why new items are needed, what would change.
+- `ARCHITECTURE-PLAN.md`: module boundaries and non-functional needs.
+- `DATA-MODEL-SPEC.md`: entities and integrity rules.
+- `ROADMAP.md`: phasing and dependencies, including Phase 0 Supabase setup.
+- `SUPABASE-PLAN.md`: backend choice, service mapping, buckets, access principles. Spec only, no code.
+- `COMPLIANCE-DPDP.md`: DPDP duties summary. Spec only, not legal advice.
+- `FOUNDER-STARTUP-GAPS.md`: startup gaps beyond product. Spec only.
+
+## 5. Change Log Format
+When a change is approved, append here:
+- Date | Approved by | Change summary | Files updated
+
+| Date | Approved by | Change summary | Files updated |
+|------|-------------|----------------|---------------|
+| 2026-09-21 | User | Initial 7-file doc set created, vision list untouched | All listed in README |
+| 2026-09-21 | User (okey do it) | P0 approved: auth recovery, CGPA, assignments, syllabus checklist, annotation, OCR and lecture-link, moderation prereq, contributor roles. Vision list untouched | FEATURE-GAPS, PRD-MVP, ARCHITECTURE-PLAN, DATA-MODEL-SPEC, ROADMAP, README |
+| 2026-09-21 | User (use supabase) | Supabase approved as backend. New SUPABASE-PLAN.md. Phase 0 added. Vision list untouched | SUPABASE-PLAN, ARCHITECTURE-PLAN, DATA-MODEL-SPEC, ROADMAP, README |
+| 2026-09-21 | User (google + email only) | Auth locked to Google login and email login only. Phone OTP and SMS excluded. Vision list untouched | SUPABASE-PLAN, PRD-MVP, ARCHITECTURE-PLAN, ROADMAP, README |
+| 2026-09-21 | User (DPDP compulsory) | DPDP build-now documented. New COMPLIANCE-DPDP.md. Phase 0 checklist added. Vision list untouched | COMPLIANCE-DPDP, SUPABASE-PLAN, ARCHITECTURE-PLAN, DATA-MODEL-SPEC, PRD-MVP, ROADMAP, README |
+| 2026-09-21 | User (okey polish) | DPDP polish: 13 May 2027 date in Roadmap Phase 0, Phase 1 exit adds grievance plus export check. Vision list untouched | ROADMAP, README |
+| 2026-09-21 | User (startup missing) | Founder gaps documented. New FOUNDER-STARTUP-GAPS.md. Vision list untouched | FOUNDER-STARTUP-GAPS, README |
+| 2026-09-21 | User (okey do it starters) | Starters locked: pilot TBD with 100 waitlist, free 5 notes 3 tests 5 summaries per day, 100MB. Vision list untouched | FOUNDER-STARTUP-GAPS, SUPABASE-PLAN, ROADMAP, README |
+| 2026-09-21 | User (student-only) | Student-only: no college staff login, self-marked attendance, internal reviewers. Faculty display-only. Vision list untouched | PRD-MVP, ARCHITECTURE-PLAN, SUPABASE-PLAN, ROADMAP, DATA-MODEL-SPEC, README |
+| 2026-09-21 | User (read all check) | Consistency fix v0.8.1: FEATURE auth+roles, COMPLIANCE version, FOUNDER money, PRD dedupe, SUPABASE limits+roles, DATA faculty display-only, ROADMAP qualifier. Vision list untouched | All docs |

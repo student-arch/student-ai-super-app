@@ -1,0 +1,110 @@
+# PRD — MVP Scope
+
+Version: 0.8.1-approved | Date: 2026-09-21 | Status: Duplicate removed, vision list untouched
+
+This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md`. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.2.0 are now included below as approved scope for new docs.
+
+## 1. Problem Statement
+Students juggle PYQs, notes, tests, revision, timetable, and attendance across disconnected tools. The full 14-module vision is too large for an initial release.
+
+## 2. MVP Goals
+- Single login with college, branch, year, semester, subjects.
+- Find and study PYQs and materials by subject, semester, university.
+- Generate notes and clear doubts with AI assistance.
+- Practice with timed tests and review incorrect answers.
+- Retain with flashcards and spaced repetition.
+- Track weekly timetable, one-day exceptions, and attendance vs target.
+
+## 3. In Scope (Phase 1)
+
+### 3.1 Dashboard and Student Profile
+- Registration, login, logout. Approved auth: Google login and email login only — Google sign-in, email and password, email OTP, password reset via email, logout all devices, college ID verification status. No phone OTP.
+- Profile: college name and ID, department and branch, year and semester, subjects, skills and interests, goals.
+- Dashboard widgets: daily progress, upcoming classes, pending tasks, recent activity, recommendations, achievements.
+- Approved additions:
+  - Academic record: semester marks entry, SGPA and CGPA calculation, goal tracking.
+  - Assignments tracker: list with due date, subject link, status (pending, submitted, overdue), reminder linkage.
+- Profile edit with DPDP rights: access export showing what data is processed and shared, grievance request with published 90-day response cap, nominee recording, consent withdrawal. Age gate with verifiable parental consent for under-18 before collection. See COMPLIANCE-DPDP.md Sections 8 and 9.
+
+Acceptance: new student can complete onboarding via Google or email and see personalized dashboard with subjects and upcoming classes. Password reset and logout-all work. Marks entry calculates CGPA. Assignment due dates trigger reminders. Privacy contact request creates a trackable grievance. Export includes sharing list.
+
+### 3.2 Question Paper Library (subset)
+- PYQs by subject, semester, university, branch, year, topic and chapter.
+- Search, filter, bookmark, recently viewed, saved organization.
+- PDF viewer with approved annotation: highlight, note, bookmark anchors. Download (subject to rights).
+- Contributor submit flow with reviewer approve and reject (approved role, see Section 5).
+
+Acceptance: student can filter by subject plus semester, open viewer, annotate, bookmark, and find it under Saved.
+
+### 3.3 Study Materials (subset)
+- Library by subject, topic, chapter, syllabus.
+- PDF viewer, personal PDF upload, summarization, key points, definitions, formulas, important questions extraction.
+- Approved additions: photo-to-text import via OCR, syllabus unit-wise completion checklist linked to materials.
+- Bookmarking and annotation (highlight, note).
+
+Out of MVP: offline access management UI is deferred to Phase 2. See ROADMAP.
+
+Acceptance: uploaded PDF produces summary plus key points and can be bookmarked. Syllabus checklist shows percent-complete per subject.
+
+### 3.4 Notes Generation (subset)
+- AI notes by topic and chapter, from uploaded PDFs. Single definition point for AI notes (see clarification in FEATURE-GAPS.md).
+- Short revision notes and detailed notes, exam-oriented notes.
+- Approved addition: lecture-link notes from video link with source attribution, plus photo-import notes.
+- Organize by subject and chapter, edit, save, export, search.
+
+Acceptance: topic notes can be saved, edited, searched, and exported.
+
+### 3.5 Test and Mock Exam (subset)
+- AI test generation by subject, topic, chapter, syllabus, PYQ-based, PDF-to-questions. Single definition point for AI test generation.
+- MCQ, True/False, short answer. Long answer deferred to manual review in MVP.
+- Difficulty selection, custom test, timed mode, exam simulation.
+- Auto-evaluation for MCQ and True/False, explanations, incorrect-answer review, history, retake, performance analysis.
+
+Acceptance: timed MCQ test auto-scores, shows explanations, stores history.
+
+### 3.6 AI Study Assistant (subset)
+- Doubt clearing, topic and chapter explanation, step-by-step, simplified explanations, examples, follow-ups.
+- Weak-topic identification, revision recommendations, progress analysis.
+
+Acceptance: follow-up questions retain context within a study session.
+
+### 3.7 Flashcards and Spaced Repetition
+- AI generation from PDFs, notes, topics, chapters. Manual create, edit, delete.
+- Q/A, definition, formula cards. Image support basic.
+- Decks and subdecks by subject and topic, bookmarking.
+- Daily review, Again / Hard / Good / Easy scheduling, due notifications, progress and deck statistics, search.
+- Editing without resetting progress, import and export basic.
+
+Acceptance: review ratings reschedule cards and due counts update.
+
+### 3.8 Timetable and Attendance
+- Weekly setup, day-wise and period-wise views, subject and classroom details, semester timetable, editing.
+- Date-specific exceptions: subject change, period change, extra class, cancelled class, rescheduled class, classroom change, holiday, restore regular.
+- Attendance: Present, Absent, Unmarked per period; subject-wise and overall percentage; history; target setting; low-attendance alerts; recovery estimate; auto-recalculation; dashboard.
+- Rule preserved: cancelled classes and holidays do not count as absences. Date-specific changes affect only selected date unless regular timetable is explicitly updated.
+
+Acceptance: marking holiday does not lower percentage; setting 75% target highlights subjects below target with recovery count.
+
+## 4. Out of Scope for MVP
+- Career roadmap full system, events discovery, opportunities board, team-up and community, project workspace, GK daily feed, fitness tracking, global analytics suite.
+- These remain in vision list and are phased in ROADMAP.md.
+
+## 5. User Roles (MVP) — APPROVED student-only
+- Student: only app user. All MVP features. No college staff login.
+- Contributor (student role): student submits PYQs and materials, views own submission status.
+- Reviewer (internal ops, not college staff): internal team or trusted students approve or reject with reason. No college staff account.
+- Administrator (internal ops only): manages reports and removals prep for Phase 3. No community moderation UI in MVP. No college staff account.
+
+## 6. Non-Goals for This Document
+- No UI design, no API contracts, no database implementation. See ARCHITECTURE-PLAN.md and DATA-MODEL-SPEC.md for plans.
+
+## 7. Open Questions Resolved in v0.2.0, v0.4.0, v0.8.0
+- Who approves uploads? Internal reviewer, not college staff. Approved v0.8.0.
+- Attendance: self-marked only, plus rule that date-specific changes never mutate weekly template. Faculty verification excluded. Approved v0.8.0.
+- AI single-definition rule approved.
+- Auth locked in v0.4.0: Google login and email login only. Phone OTP excluded.
+
+## 8. Open Questions Still Requiring User Decision
+1. AI daily limits for free users? Starter applied: 5 notes, 3 tests, 5 summaries per day. Paid tier open.
+2. Supported languages for MVP: English only?
+3. Offline requirement for MVP?
