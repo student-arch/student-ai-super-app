@@ -7,8 +7,8 @@ Core student journey:
 Learn → Remember → Practice → Test → Identify Weaknesses → Improve → Track Attendance → Develop Skills → Build Projects → Find Teammates → Discover Opportunities → Prepare for a Career
 
 ## Source of Truth
-- Existing vision list: `student-ai-super-app-complete-feature-list.md`
-  - This file is **read-only**. It will not be modified without explicit user approval.
+- Existing vision list: `student-ai-super-app-complete-feature-list.md` v0.9.0
+  - Last approved edit v0.9.0 with student-only + P0 + DPDP rights. Further edits need explicit user approval.
   - All new documentation references it but does not duplicate it verbatim.
 
 ## Documentation Set (Approved 2026-09-21)

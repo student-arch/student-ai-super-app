@@ -1,6 +1,6 @@
 # Roadmap — Phased Delivery Plan
 
-Version: 0.8.1-approved | Date: 2026-09-21 | Status: Includes labeled student-only, vision list untouched
+Version: 0.9.1-approved | Date: 2026-09-21 | Status: Vision v0.9.0 applies, all aligned
 
 ## Phase 0 — Supabase Setup plus DPDP Readiness (prerequisite) — APPROVED
 - Provision development, staging, production projects.

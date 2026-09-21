@@ -50,3 +50,4 @@ When a change is approved, append here:
 | 2026-09-21 | User (read all check) | Consistency fix v0.8.1: FEATURE auth+roles, COMPLIANCE version, FOUNDER money, PRD dedupe, SUPABASE limits+roles, DATA faculty display-only, ROADMAP qualifier. Vision list untouched | All docs |
 | 2026-09-21 | User (improve vision) | Vision list improved with approval: student-only header, P0 auth/academic/DPDP rights, annotation/OCR/lecture-link/contributor, AI single-refs, attendance/moderation/diet/privacy clarified | student-ai-super-app-complete-feature-list.md, README |
 | 2026-09-21 | User (english only) | English-only MVP locked, regional deferred to Phase 2. Vision v0.9.0 applies | PRD-MVP, ARCHITECTURE-PLAN, README |
+| 2026-09-21 | User (okey review fix) | Stale-ref cleanup to v0.9.1: vision v0.9.0 applied refs, PRD login wording, README source note. All aligned | FEATURE-GAPS, SUPABASE-PLAN, COMPLIANCE-DPDP, PRD-MVP, DATA-MODEL-SPEC, ROADMAP, FOUNDER-STARTUP-GAPS, README |

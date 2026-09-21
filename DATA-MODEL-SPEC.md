@@ -1,6 +1,6 @@
 # Data Model Spec (Specification Only)
 
-Version: 0.8.1-approved | Date: 2026-09-21 | Status: Faculty display-only noted, no implementation
+Version: 0.9.1-approved | Date: 2026-09-21 | Status: Vision v0.9.0 applies, no implementation
 
 Conventions: each entity lists key attributes in plain language. No SQL, no code. Supabase mapping: each entity corresponds to managed database tables with owner references and approval status fields, files live in storage buckets per SUPABASE-PLAN.md Section 4.
 

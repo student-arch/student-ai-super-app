@@ -1,6 +1,6 @@
 # Compliance — DPDP Build-Now Guide (Specification Only, No Code)
 
-Version: 0.8.1-approved | Date: 2026-09-21 | Status: Student-only pointer added, vision list untouched
+Version: 0.9.1-approved | Date: 2026-09-21 | Status: Vision v0.9.0 applies, all aligned
 
 Plain-English overview for founders. Not legal advice. Check the DPDP Act 2023, DPDP Rules 2025, commencement notification, and legal counsel for your exact product and launch date.
 
@@ -119,4 +119,4 @@ References: Act sections 10, 10(2)(a)-(c), 16, 18, 27, 33 and Schedule; Rules ru
 - DATA-MODEL-SPEC.md adds retention, nominee, age-verification attributes as descriptive fields.
 - ROADMAP.md Phase 0 adds compliance checklist.
 - PRD-MVP.md adds rights acceptance in profile and settings.
-- Vision list not modified.
+- Vision `student-ai-super-app-complete-feature-list.md` v0.9.0 applies with DPDP rights in Sections 1 and 14.

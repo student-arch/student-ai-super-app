@@ -2,13 +2,13 @@
 
 Version: 0.9.1-approved | Date: 2026-09-21 | Status: English-only MVP, vision v0.9.0 applies
 
-This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md`. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.2.0 are now included below as approved scope for new docs.
+This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.9.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.9.1 are now included below as approved scope for new docs.
 
 ## 1. Problem Statement
 Students juggle PYQs, notes, tests, revision, timetable, and attendance across disconnected tools. The full 14-module vision is too large for an initial release.
 
 ## 2. MVP Goals
-- Single login with college, branch, year, semester, subjects.
+- Google plus email login only with college, branch, year, semester, subjects.
 - Find and study PYQs and materials by subject, semester, university.
 - Generate notes and clear doubts with AI assistance.
 - Practice with timed tests and review incorrect answers.

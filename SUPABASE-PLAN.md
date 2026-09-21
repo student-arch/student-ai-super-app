@@ -1,6 +1,6 @@
 # Supabase Backend Plan (Specification Only, No Code)
 
-Version: 0.8.1-approved | Date: 2026-09-21 | Status: Limits and roles aligned, vision list untouched
+Version: 0.9.1-approved | Date: 2026-09-21 | Status: Vision v0.9.0 applies, all aligned
 
 This document records Supabase as the approved backend platform for the Student AI Super-App MVP. It contains planning descriptions only. No SQL, no policy code, no API code, no keys.
 
@@ -116,4 +116,4 @@ Resolved in v0.4.0: Google sign-in included. Email OTP sufficient. Phone OTP exc
 - DATA-MODEL-SPEC.md gains Supabase mapping note, no entity changes.
 - ROADMAP.md gains Phase 0 Supabase setup prerequisite plus DPDP checklist.
 - COMPLIANCE-DPDP.md is the authoritative DPDP summary. This section defers to it.
-- Vision list `student-ai-super-app-complete-feature-list.md` not modified.
+- Vision `student-ai-super-app-complete-feature-list.md` v0.9.0 applies.
