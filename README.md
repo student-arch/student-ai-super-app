@@ -35,6 +35,6 @@ Learn → Practice → Test → Identify Weaknesses → Improve → Track Attend
 4. Keep all docs consistent when requirements change. COMPLIANCE-DPDP.md is authoritative for DPDP.
 
 ## Status
-- Version: 0.18.0-approved
+- Version: 0.19.0-approved
 - Last updated: 2026-09-21
-- State: First year full free access locked. Paid deferred to year 2. Full-auto student-only MVP.
+- State: Read-only users, maintainer seeds all content. No uploads. First-year free.

@@ -1,6 +1,6 @@
 # PRD — MVP Scope
 
-Version: 0.18.0-approved | Date: 2026-09-21 | Status: First year full free access, paid deferred to year 2
+Version: 0.19.0-approved | Date: 2026-09-21 | Status: Read-only users, maintainer-seeded only, no uploads
 
 This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.15.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.10.0 are now included below as approved scope for new docs.
 
@@ -31,33 +31,32 @@ Acceptance: new student can complete onboarding via Google or email and see pers
 ### 3.2 Question Paper Library (subset)
 - PYQs by subject, semester, university, branch, year, topic and chapter.
 - Search, filter, bookmark, recently viewed, saved organization.
-- PDF viewer with approved annotation: highlight, note, bookmark anchors. Download (subject to rights).
-- Student uploads publish via automated checks only. No reviewer queue. See Section 5.
-- Seed-once shared library by ops outside the app (no admin login): PYQs, standard materials, notes, test banks, formula packs seeded once per pilot scope, refreshed per semester and on report thresholds. Students read-only plus report-wrong-content.
+- PDF viewer with maintainer-seeded library: highlight, note, bookmark anchors. Download (subject to rights).
+- No user uploads. Seed-once shared library by maintainer via ops outside the app (no admin login): PYQs, standard materials, notes, test banks, formula packs seeded once per pilot scope, refreshed per semester and on report thresholds. Students read-only plus report-wrong-content.
 
 Acceptance: student can filter by subject plus semester, open viewer, annotate, bookmark, and find it under Saved.
 
 ### 3.3 Study Materials (subset)
-- Library by subject, topic, chapter, syllabus.
-- PDF viewer, personal PDF upload, summarization, key points, definitions, formulas, important questions extraction.
-- Approved additions: photo-to-text import via OCR, syllabus unit-wise completion checklist linked to materials.
+- Library by subject, topic, chapter, syllabus, maintainer-seeded only. No user uploads.
+- PDF viewer, maintainer-seeded summarization, key points, definitions, formulas, important questions.
+- Syllabus unit-wise completion checklist linked to seeded materials.
 - Bookmarking and annotation (highlight, note).
 - Formula rendering: LaTeX-style entry with live preview, crisp display in viewer, text fallback for accessibility, error preview for bad syntax. Applies to materials, notes, tests, doubt answers. No flashcards.
 
 Out of MVP: offline access management UI is deferred to Phase 2. See ROADMAP.
 
-Acceptance: uploaded PDF produces summary plus key points and can be bookmarked. Syllabus checklist shows percent-complete per subject. Formulas render crisply with readable fallback when syntax is invalid.
+Acceptance: seeded material opens with summary plus key points and can be bookmarked. Syllabus checklist shows percent-complete per subject. Formulas render crisply with readable fallback when syntax is invalid.
 
 ### 3.4 Notes Generation (subset)
-- AI notes by topic and chapter, from uploaded PDFs. Single definition point for AI notes (see clarification in FEATURE-GAPS.md).
+- Maintainer-seeded AI notes by topic and chapter. Single definition point for AI notes (see clarification in FEATURE-GAPS.md).
 - Short revision notes and detailed notes, exam-oriented notes.
-- Approved addition: lecture-link notes from video link with source attribution, plus photo-import notes.
+- Maintainer-seeded lecture-link notes from video link with source attribution. No photo-import notes, no upload-based notes.
 - Organize by subject and chapter, edit, save, export, search.
 
 Acceptance: topic notes can be saved, edited, searched, and exported.
 
 ### 3.5 Test and Mock Exam (subset)
-- AI test generation by subject, topic, chapter, syllabus, PYQ-based, PDF-to-questions. Single definition point for AI test generation.
+- Maintainer-seeded AI test generation by subject, topic, chapter, syllabus, PYQ-based. Single definition point for AI test generation. No PDF-to-questions from user uploads.
 - MCQ, True/False, short answer. Long answer deferred to manual review in MVP.
 - Difficulty selection, custom test, timed mode, exam simulation.
 - Auto-evaluation for MCQ and True/False, explanations, incorrect-answer review, history, retake, performance analysis.
@@ -86,10 +85,9 @@ Acceptance: marking holiday does not lower percentage; setting 75% target highli
 - Career roadmap full system, events discovery, opportunities board, team-up and community, project workspace, GK daily feed, fitness tracking, global analytics suite.
 - These remain in vision list and are phased in ROADMAP.md.
 
-## 5. User Roles (MVP) — APPROVED full-auto student-only
-- Student: only app login. All MVP features. No college staff login. No reviewer or admin logins.
-- Uploads: student uploads go live via automated checks only — file type and size, duplicate detection, text-extraction sanity, spam and abuse filters. No human approve queue.
-- Seed-once ops seeding happens outside the app with no login: ops loads PYQs, materials, notes, test banks, formula packs once per scope, refreshes per semester and on report thresholds. Students read-only.
+## 5. User Roles (MVP) — APPROVED read-only student-only
+- Student: only app login, read-only consumer. Uses seeded library, dashboard, CGPA and assignment entry, timetable, self-marked attendance, tests, notes reading. No uploads of any docs. No college staff login. No reviewer or admin logins.
+- Maintainer seeding happens outside the app with no login: maintainer loads PYQs, materials, notes, test banks, formula packs once per scope, refreshes per semester and on report thresholds.
 - Reports: report-wrong-question and report-content trigger auto-hide plus auto-takedown rules with audit log. No human triage queue in MVP.
 - DPDP legal contacts (grievance response and breach reporting owners) remain named humans as required by law. They are not app moderation roles and have no content-approval queue. See COMPLIANCE-DPDP.md.
 

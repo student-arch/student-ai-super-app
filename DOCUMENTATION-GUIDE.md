@@ -1,6 +1,6 @@
 # Documentation Guide — Consistency and Approval Workflow
 
-Version: 0.18.0-approved | Date: 2026-09-21
+Version: 0.19.0-approved | Date: 2026-09-21
 
 ## 1. Scope
 - Create and maintain `.md` files only. No code generation.
@@ -64,3 +64,4 @@ When a change is approved, append here:
 | 2026-09-21 | User (okey stale fix) | Stale refs fixed to v0.16.1: flashcards fully out, vision v0.15.0 refs, auto-check wording | PRD-MVP, ROADMAP, README, SUPABASE-PLAN |
 | 2026-09-21 | User (initial free) | Initial free-only enforced, paid deferred to Phase 2, AI cuts active, 1 paid prod max | PRD-MVP, SUPABASE-PLAN, ROADMAP, AI-FEATURES, FOUNDER-STARTUP-GAPS, README |
 | 2026-09-21 | User (first year free) | First year full free access for 12 months, paid deferred to year 2 | PRD-MVP, SUPABASE-PLAN, ROADMAP, AI-FEATURES, FOUNDER-STARTUP-GAPS, README |
+| 2026-09-21 | User (read-only users) | Read-only users, maintainer seeds all content, no uploads including ID files | student-ai-super-app-complete-feature-list.md, PRD-MVP, SUPABASE-PLAN, DATA-MODEL-SPEC, ROADMAP, AI-FEATURES, FOUNDER-STARTUP-GAPS, README |

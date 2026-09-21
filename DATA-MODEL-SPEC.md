@@ -1,11 +1,11 @@
 # Data Model Spec (Specification Only)
 
-Version: 0.15.0-approved | Date: 2026-09-21 | Status: Flashcards removed, no implementation
+Version: 0.19.0-approved | Date: 2026-09-21 | Status: Read-only users, maintainer seeding only, no implementation
 
 Conventions: each entity lists key attributes in plain language. No SQL, no code. Supabase mapping: each entity corresponds to managed database tables with owner references and approval status fields, files live in storage buckets per SUPABASE-PLAN.md Section 4.
 
 ## 1. Student Profile
-- Identifier, name, contact, college name, college ID reference, verification status by automated checks only, no human review and no college staff access (approved full-auto).
+- Identifier, name, contact, college name and branch self-declared text, no ID file collected (approved read-only).
 - Department and branch, academic year, semester.
 - Enrolled subjects with syllabus version.
 - Skills, interests, academic goals, career goals.
@@ -23,17 +23,17 @@ Conventions: each entity lists key attributes in plain language. No SQL, no code
 
 ## 2. Question Paper
 - Subject, university, branch, semester, year, topic and chapter tags.
-- File reference, uploader, approval status by automated checks (auto-approved or auto-rejected with reason codes), bookmark links.
+- File reference seeded by maintainer, seeded-approved status, bookmark links.
 - Annotation links (highlight, note anchors).
 - View history per student.
 
 ## 3. Study Material
 - Subject, topic, chapter, syllabus linkage.
-- File reference, summary, key points, definitions, formulas, important questions.
+- Maintainer-seeded file reference, summary, key points, definitions, formulas, important questions.
 - Uploader, approval status by automated checks, bookmarks, annotations.
 
 ## 4. Note
-- Owner, subject, chapter, topic, source reference (PDF, material, manual).
+- Maintainer-seeded source reference, no personal uploads.
 - Content revisions, note type (short, detailed, exam-oriented).
 - Formula blocks with source text, rendered output reference, validity flag, text fallback. See ARCHITECTURE-PLAN.md rendering rule.
 - Saved, exported, and search indexing flags.

@@ -1,12 +1,12 @@
 Student AI Super-App — Complete Feature List
 A comprehensive student platform covering exam preparation, AI-powered learning, attendance tracking, career development, student communities, events, and personal productivity.
-Student-only app: students are the only login type. No college staff login. Content publishing and safety run on automated checks with no human reviewer queue.
+Student-only app: students are the only login type and read-only users. No college staff login. No user uploads. All content is seeded and updated by the app maintainer via ops outside the app.
 
 1. Dashboard & Student Profile
 Personalized Student Dashboard
 Student Registration and Login — Google login and email login only, no phone OTP
 Password Reset and Logout All Devices
-College ID Verification by Automated Checks Only
+College Name and Branch Self-Declaration, No ID File Upload
 Department / Branch Selection
 Academic Year and Semester Selection
 Subjects and Syllabus Management
@@ -42,7 +42,7 @@ Question Paper Search and Filtering
 Question Paper Bookmarking
 Downloadable Question Papers
 Question Paper PDF Viewer with Highlight, Note, and Bookmark Anchors
-Student Upload with Automated Checks and Auto-Approve or Auto-Reject
+Maintainer-Seeded Papers, No User Uploads
 Recently Viewed Papers
 Organize Saved Question Papers
 2.2 Study Materials
@@ -52,8 +52,7 @@ Topic-Wise Study Materials
 Chapter-Wise Study Materials
 Syllabus-Based Study Materials
 PDF Study Material Viewer with Highlight, Note, and Bookmark Anchors
-Upload Personal Study PDFs
-Photo-to-Text Import via OCR
+Maintainer-Seeded Materials, No User Uploads
 PDF-to-Study-Material Conversion
 PDF Content Summarization
 Important Topics Extraction
@@ -62,14 +61,13 @@ Formula Extraction
 Formula Rendering with Live Preview, Crisp Display, Text Fallback, and Error Preview
 Important Questions Extraction
 Study Material Bookmarking
-Student Upload with Automated Checks and Auto-Approve or Auto-Reject
+Maintainer-Seeded Library, No User Uploads
 Offline Study Material Access
 2.3 Notes Generation
 AI-Generated Notes — Defined Once Here, Referenced in Section 3
 Notes for Specific Topics
 Notes for Specific Chapters
-Notes from Uploaded PDFs
-Notes from Photo Imports
+Maintainer-Seeded Notes, No Upload-Based Notes
 Notes from Lecture Links with Source Attribution
 Short Revision Notes
 Detailed Study Notes
@@ -388,4 +386,4 @@ Feedback and Issue Reporting
 Core Student Journey
 Learn → Practice → Test → Identify Weaknesses → Improve → Track Attendance → Develop Skills → Build Projects → Find Teammates → Discover Opportunities → Prepare for a Career
 This feature list combines the app's major modules, including the expanded career roadmap and the combined weekly/date-specific timetable and attendance system.
-Vision update 2026-09-21 v0.15.0: flashcards Sec 4 removed for AI and storage cost, revision via notes plus tests. Prior v0.10.0: formula rendering lines added to Sections 2.2, 2.3, 4. Prior v0.9.0: student-only scope, P0 academic and DPDP rights added, AI single-definition refs, moderation and diet and attendance rules clarified. Backend and limits live in SUPABASE-PLAN.md and ROADMAP.md, not duplicated here.
+Vision update 2026-09-21 v0.19.0: read-only users, maintainer seeds all content, no uploads including ID files. Prior v0.15.0: flashcards Sec 4 removed. Prior v0.10.0: formula rendering lines added. Prior v0.9.0: student-only scope, P0 academic and DPDP rights added, AI single-definition refs, moderation and diet and attendance rules clarified. Backend and limits live in SUPABASE-PLAN.md and ROADMAP.md, not duplicated here.

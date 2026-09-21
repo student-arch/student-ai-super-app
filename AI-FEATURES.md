@@ -1,8 +1,8 @@
 # AI Features Catalog (Specification Only, No Code)
 
-Version: 0.18.0-approved | Date: 2026-09-21 | Status: First year free enforced, paid in year 2
+Version: 0.19.0-approved | Date: 2026-09-21 | Status: Read-only users, maintainer-seeded AI outputs
 
-Scope: every AI-powered feature in vision v0.10.0 plus MVP subset. Student-only, English only, full-auto with no reviewer queue. Server-side AI orchestration only with per-student counters. No prompts, no model selection, no code.
+Scope: every AI-powered feature in vision plus MVP subset. Student-only read-only users, English only, maintainer-seeded outputs with no user uploads. Server-side AI orchestration only with per-student counters. No prompts, no model selection, no code.
 
 Related: PRD-MVP.md Sec 3.3-3.7, vision Sec 2.2-2.4 plus Sec 3 plus Sec 4, ARCHITECTURE-PLAN.md rendering rule, DATA-MODEL-SPEC.md formula blocks, ROADMAP.md phasing, SUPABASE-PLAN.md Sec 10 limits, SERVICES-INDIA.md.
 
@@ -15,13 +15,13 @@ Related: PRD-MVP.md Sec 3.3-3.7, vision Sec 2.2-2.4 plus Sec 3 plus Sec 4, ARCHI
 - Important questions extraction.
 - PDF content understanding and PDF question answering.
 - AI study-material generation.
-- MVP: summaries, key points, definitions, formulas, important questions, PDF Q&A on uploaded PDFs within free limits.
+- MVP: summaries, key points, definitions, formulas, important questions, PDF Q&A on maintainer-seeded PDFs within free limits.
 - Cost control: whole-PDF conversion is the most expensive. Prefer topic and chapter scope. Starter: 5 summaries per student per day.
 
 ## 2. Notes Intelligence (vision Sec 2.3 single definition, PRD Sec 3.4)
 
 - AI-generated notes, single definition referenced from Sec 3.
-- Notes for topics, chapters, uploaded PDFs, photo imports, lecture links with source attribution.
+- Notes for topics, chapters, maintainer-seeded library, lecture links with source attribution. No upload-based or photo-import notes.
 - Short revision notes, detailed study notes, exam-oriented notes, concept-wise notes.
 - Important definitions and formula-based notes with rendering rule.
 - Organize by subject and chapter, edit, save, export, search saved notes.
