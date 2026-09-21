@@ -1,6 +1,6 @@
 # Founder Startup Gaps — What You Are Missing to Start Up
 
-Version: 0.19.2-approved | Date: 2026-09-21 | Status: Storage wording fixed, read-only consistent
+Version: 0.20.0-approved | Date: 2026-09-21 | Status: Agent-ready freeze, read-only, first-year free
 
 You have product vision plus MVP scope plus backend plus DPDP plan. As a first-time founder, these non-product pieces are still missing. All proposals below are doc-only. No code. Vision list not modified.
 

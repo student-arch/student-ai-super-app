@@ -1,8 +1,8 @@
 # AI Features Catalog (Specification Only, No Code)
 
-Version: 0.19.0-approved | Date: 2026-09-21 | Status: Read-only users, maintainer-seeded AI outputs
+Version: 0.20.0-approved | Date: 2026-09-21 | Status: Agent-ready freeze, read-only maintainer-seeded
 
-Scope: every AI-powered feature in vision plus MVP subset. Student-only read-only users, English only, maintainer-seeded outputs with no user uploads. Server-side AI orchestration only with per-student counters. No prompts, no model selection, no code.
+Scope: every AI-powered feature in vision v0.19.0 plus MVP subset. Student-only read-only users, English only, maintainer-seeded outputs with no user uploads. Server-side AI orchestration only with first-year free counters. No prompts, no model selection, no code.
 
 Related: PRD-MVP.md Sec 3.3-3.7, vision Sec 2.2-2.4 plus Sec 3 plus Sec 4, ARCHITECTURE-PLAN.md rendering rule, DATA-MODEL-SPEC.md formula blocks, ROADMAP.md phasing, SUPABASE-PLAN.md Sec 10 limits, SERVICES-INDIA.md.
 
@@ -64,10 +64,10 @@ Related: PRD-MVP.md Sec 3.3-3.7, vision Sec 2.2-2.4 plus Sec 3 plus Sec 4, ARCHI
 ## 7. Cost Tiers — First-Year Free Enforced
 
 - Free enforced for 12 months from launch: 5 notes, 3 tests, 5 summaries per student per day. Doubt follow-ups capped at 1 plus 1. Paid tier deferred to year 2.
-- Active cuts for cost: no lecture-link notes, no PDF-to-full-test, no bulk PDF-to-deck, no repeated re-explains, no daily weak-topic pushes in free initial.
+- Active cuts for cost: no lecture-link notes, no PDF-to-full-test, no repeated re-explains, no daily weak-topic pushes in free initial. Flashcards already removed v0.15.0.
 - 10k lowest-cost variant stays optional: 5 notes plus 2 tests per week, summaries shared-library only. To be locked separately if approved.
 
 ## 8. Change Impact
 
-- Catalog only. No scope change. MVP subset refs PRD-MVP.md Sec 3.3-3.7. Vision refs Sec 2.2-2.4, Sec 3, Sec 4.
+- Catalog only. No scope change. MVP subset refs PRD-MVP.md Sec 3.3-3.6 plus 3.8. Vision refs Sec 2.2-2.4 plus Sec 3. Sec 4 flashcards removed.
 - README.md index and DOCUMENTATION-GUIDE.md ownership updated.

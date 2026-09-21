@@ -1,6 +1,6 @@
 # Architecture Plan (No Implementation)
 
-Version: 0.19.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, read-only fully consistent
+Version: 0.20.0-approved | Date: 2026-09-21 | Status: Agent-ready freeze, read-only maintainer-seeded
 
 Backend choice: Supabase. Details in SUPABASE-PLAN.md. This file keeps module boundaries and cross-cutting rules.
 
@@ -8,10 +8,10 @@ Backend choice: Supabase. Details in SUPABASE-PLAN.md. This file keeps module bo
 
 | Module | Owns | Depends On |
 |--------|------|------------|
-| Identity and Profile | Google login, email login (password, email OTP), password reset, sessions, logout-all, college and branch, year and semester, subjects, goals, verification status. No phone auth | None |
+| Identity and Profile | Google login, email login (password, email OTP), password reset, sessions, logout-all, self-declared college and branch, year and semester, subjects, goals. No ID files. No phone auth | None |
 | Academic Progress (approved) | Marks and CGPA, assignments, syllabus checklist | Identity |
-| Content Library | PYQs, materials, PDF metadata, bookmarks, uploads, annotations, approval status | Identity |
-| Notes and AI Study | Notes, summaries, doubt sessions, explanations, OCR imports, lecture-link notes | Content Library, Identity |
+| Content Library | Maintainer-seeded PYQs, materials, PDF metadata, bookmarks, annotations. No user uploads | Identity |
+| Notes and AI Study | Maintainer-seeded notes, summaries, doubt sessions, explanations, lecture-link notes. No OCR imports, no upload-based notes | Content Library, Identity |
 | Assessment | Tests, questions, attempts, scores, explanations | Notes and AI Study, Content Library |
 | Revision Without Flashcards (v0.15.0) | Saved-notes review, incorrect-answer review, retakes, syllabus checklist. No decks, no scheduling | Notes and AI Study |
 | Timetable | Weekly template, date exceptions, holidays | Identity |
@@ -20,10 +20,10 @@ Backend choice: Supabase. Details in SUPABASE-PLAN.md. This file keeps module bo
 
 Rule: Assessment never writes timetable data. Attendance never writes test data. AI outputs are stored as assistive artifacts linked to source materials. Date-specific exceptions never mutate weekly template.
 
-## 2. User Roles — APPROVED full-auto student-only 2026-09-21
+## 2. User Roles — APPROVED read-only student-only 2026-09-21
 
-- Student: only app login. Uses all released features.
-- No contributor queue role, no reviewer role, no administrator login in MVP. Uploads publish via automated checks. Reports resolve via auto-hide and auto-takedown rules with audit log.
+- Student: only app login, read-only consumer of maintainer-seeded library plus own dashboard, CGPA, assignments, timetable, attendance, attempts, annotations, exports. No uploads of any docs.
+- No contributor queue role, no reviewer role, no administrator login in MVP. Maintainer seeds all content outside the app with no login. Reports resolve via auto-hide and maintainer refresh with audit log.
 - DPDP legal contacts for grievance and breach response remain named humans as required by law, with no content-approval powers. See COMPLIANCE-DPDP.md.
 
 No permissions are implemented in this doc. This is a specification.

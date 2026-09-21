@@ -26,6 +26,7 @@ Learn → Practice → Test → Identify Weaknesses → Improve → Track Attend
 | `FOUNDER-STARTUP-GAPS.md` | First-time founder gaps: users, content, money, legal beyond DPDP, launch, metrics, owners. Spec only |
 | `SERVICES-INDIA.md` | India MVP services catalog: required services, India constraints, out-of-scope, open choices. Spec only, no code |
 | `AI-FEATURES.md` | AI features catalog: materials, notes, tests, doubts, cross-cutting rules, cost tiers. Flashcards removed. Spec only, no code |
+| `AGENT-START-HERE.md` | Agent-ready build order: read order, frozen scope, Phase 0-1 steps, open decisions, guardrails. Spec only, no code |
 | `DOCUMENTATION-GUIDE.md` | Consistency rules and approval workflow |
 
 ## Workflow Rules
@@ -35,6 +36,6 @@ Learn → Practice → Test → Identify Weaknesses → Improve → Track Attend
 4. Keep all docs consistent when requirements change. COMPLIANCE-DPDP.md is authoritative for DPDP.
 
 ## Status
-- Version: 0.19.2-approved
+- Version: 0.20.0-approved
 - Last updated: 2026-09-21
-- State: Storage wording fixed, read-only consistent. First-year free.
+- State: Agent-ready freeze. Start at AGENT-START-HERE.md. Read-only first-year-free MVP.

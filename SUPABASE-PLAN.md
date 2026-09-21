@@ -1,6 +1,6 @@
 # Supabase Backend Plan (Specification Only, No Code)
 
-Version: 0.19.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, read-only fully consistent
+Version: 0.20.0-approved | Date: 2026-09-21 | Status: Agent-ready freeze, read-only maintainer-seeded
 
 This document records Supabase as the approved backend platform for the Student AI Super-App MVP. It contains planning descriptions only. No SQL, no policy code, no API code, no keys.
 
@@ -21,10 +21,10 @@ Related docs: ARCHITECTURE-PLAN.md for module boundaries, DATA-MODEL-SPEC.md for
 |----------|--------------------------------|-------|
 | Registration, login, OTP, reset, sessions, logout-all | Auth | Google sign-in plus email methods only. Email OTP only. No phone OTP. See Section 3 |
 | All MVP entities in DATA-MODEL-SPEC.md | Managed relational database | One logical project with separate development, staging, production projects |
-| PYQs, materials, personal PDFs, photos, ID references, exports | File storage | Bucket plan in Section 4. No public upload without approval status |
-| Owner-only plus approved-shared access | Row-level access rules described in words | Students see own private data plus approved shared library. Contributors create pending items. Reviewers change approval status. Admins handle reports |
+| PYQs, materials, seeded notes, exports | File storage | Bucket plan in Section 4. No user uploads. Shared reads require seeded-approved status |
+| Owner-only dashboard plus seeded shared reads | Row-level access rules described in words | Students see own dashboard data plus maintainer-seeded shared library. Maintainer seeds outside the app with no login. Reports trigger maintainer refresh. No contributor, reviewer, or admin logins |
 | Due reminders, recovery estimates, digest notifications | Scheduled jobs and server orchestration | Attendance recalculation stays traceable to timetable changes |
-| AI summaries, notes, test generation, doubt answers | Server-side AI orchestration | AI provider calls happen server-side only. Usage counters enforce starter limits: 5 notes, 3 tests, 5 summaries per day. See Section 10 |
+| AI summaries, notes, test generation, doubt answers | Server-side AI orchestration | AI provider calls happen server-side only. Usage counters enforce first-year free limits: 5 notes, 3 tests, 5 summaries per day. See Section 10 |
 | Search by college, university, regulation, subject, year | Database indexes and full-text concepts, vector search optional | Vector search for semantic PYQ and notes search is P1 proposal, not approved for MVP |
 | Calendar export, push and email | External integrations via server orchestration | SMS deferred per ROADMAP.md |
 
@@ -34,7 +34,7 @@ Related docs: ARCHITECTURE-PLAN.md for module boundaries, DATA-MODEL-SPEC.md for
 - Explicitly excluded: phone OTP, SMS login, SMS reset.
 - Why: avoids SMS provider cost and extra PII, covers students with Google or any email inbox, keeps Phase 0 setup to two providers.
 - Session handling: list active sessions in profile, revoke single session, revoke all on logout-all and password change.
-- Verification: college ID reference stored on profile with status values of unverified, pending, verified, rejected. Verification performed by internal reviewer or admin (internal ops, no college staff). Purpose limitation applies: ID used only for verification, not displayed publicly.
+- Verification: self-declared college name and branch text only. No ID files collected. No verification queue.
 - Account deletion: request flow deletes or anonymizes student-owned rows and private files, retains anonymized audit entries for safety reports. Export-before-delete offered.
 
 ## 4. Storage Bucket Plan (Names Are Labels, Not Code)
@@ -76,7 +76,7 @@ Rules: private-by-default. Maintainer-seeded status gates shared reads. Reports 
 
 - Fiduciary model: app as Data Fiduciary, student as Data Principal, Supabase plus AI plus email plus push vendors as Data Processors under contract. App remains responsible. See COMPLIANCE-DPDP.md Sections 1 to 3.
 - Lawful ground recorded per purpose: consent or section 7 use. No open-ended reuse.
-- College ID treated as sensitive. Minimal retention, reviewer-only access with masking outside verification task, deletion on account delete.
+- Self-declared college text only. No ID files collected, no masking needed, deletion on account delete covers dashboard data.
 - Data export: student can request export of profile, notes, decks, attempts, attendance history plus sharing list (right to access).
 - Grievance contact in app with published response period capped at 90 days. Nominee field in account settings.
 - Age gate for under-18 with verifiable parental consent flow. No tracking or targeted ads to children.

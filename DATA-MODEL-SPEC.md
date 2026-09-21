@@ -1,6 +1,6 @@
 # Data Model Spec (Specification Only)
 
-Version: 0.19.0-approved | Date: 2026-09-21 | Status: Read-only users, maintainer seeding only, no implementation
+Version: 0.20.0-approved | Date: 2026-09-21 | Status: Agent-ready freeze, read-only, no implementation
 
 Conventions: each entity lists key attributes in plain language. No SQL, no code. Supabase mapping: each entity corresponds to managed database tables with owner references and approval status fields, files live in storage buckets per SUPABASE-PLAN.md Section 4.
 

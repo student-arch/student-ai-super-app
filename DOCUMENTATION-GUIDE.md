@@ -1,6 +1,6 @@
 # Documentation Guide — Consistency and Approval Workflow
 
-Version: 0.19.2-approved | Date: 2026-09-21
+Version: 0.20.0-approved | Date: 2026-09-21
 
 ## 1. Scope
 - Create and maintain `.md` files only. No code generation.
@@ -33,6 +33,7 @@ Version: 0.19.2-approved | Date: 2026-09-21
 - `FOUNDER-STARTUP-GAPS.md`: startup gaps beyond product. Spec only.
 - `SERVICES-INDIA.md`: India services catalog. Spec only, no code.
 - `AI-FEATURES.md`: AI features catalog. Spec only, no code.
+- `AGENT-START-HERE.md`: agent build order and guardrails. Spec only, no code.
 
 ## 5. Change Log Format
 When a change is approved, append here:
@@ -67,3 +68,4 @@ When a change is approved, append here:
 | 2026-09-21 | User (read-only users) | Read-only users, maintainer seeds all content, no uploads including ID files | student-ai-super-app-complete-feature-list.md, PRD-MVP, SUPABASE-PLAN, DATA-MODEL-SPEC, ROADMAP, AI-FEATURES, FOUNDER-STARTUP-GAPS, README |
 | 2026-09-21 | User (okey fix it) | Stale refs fixed to v0.19.1: uploads/ID/flashcards wording, vision v0.19.0 refs | ROADMAP, ARCHITECTURE-PLAN, SUPABASE-PLAN, PRD-MVP, README, FOUNDER-STARTUP-GAPS |
 | 2026-09-21 | User (okey storage fix) | Storage wording fixed to v0.19.2: shared library plus export cache, no personal 100MB, no ID masking | ROADMAP, FOUNDER-STARTUP-GAPS, README |
+| 2026-09-21 | User (agent-ready update) | Agent-ready freeze v0.20.0: stales fixed across ARCH/SUPABASE/SERVICES/COMPLIANCE/AI/DATA/FEATURE/FOUNDER/PRD/ROADMAP, new AGENT-START-HERE.md build order | All docs plus AGENT-START-HERE |

@@ -1,6 +1,6 @@
 # Compliance — DPDP Build-Now Guide (Specification Only, No Code)
 
-Version: 0.10.0-approved | Date: 2026-09-21 | Status: Vision v0.10.0 applies, all aligned
+Version: 0.20.0-approved | Date: 2026-09-21 | Status: Agent-ready freeze, read-only, no ID files
 
 Plain-English overview for founders. Not legal advice. Check the DPDP Act 2023, DPDP Rules 2025, commencement notification, and legal counsel for your exact product and launch date.
 
@@ -67,7 +67,7 @@ References: Act section 8(6); Rules rule 7.
 - Do not keep personal data after purpose ends, subject to legal retention duties and the Rules.
 - MVP defaults to be confirmed with counsel:
   - Active study data kept for active account plus defined academic history window.
-  - Personal uploads deleted or anonymized on account delete, subject to safety audit retention.
+  - Personal uploads do not exist in read-only model. Annotations and exports deleted or anonymized on account delete, subject to safety audit retention.
   - Backups age out on rotation schedule.
 - Store retention category with each entity in DATA-MODEL-SPEC.md. Erasure on purpose end, not cheap-storage hoarding.
 
@@ -83,7 +83,7 @@ References: Act section 9; Rules rules 10 and 12.
 
 ## 9. Principal Rights in MVP
 
-- Right to access: student can ask what personal data is processed and how it has been shared, subject to the Act. Provide export of profile, notes, decks, attempts, attendance history plus sharing list.
+- Right to access: student can ask what personal data is processed and how it has been shared, subject to the Act. Provide export of profile, notes, attempts, attendance history plus sharing list. No decks. No ID files collected.
 - Grievance redressal: working in-app privacy contact, routed to someone who can answer, published response period capped at 90 days per Rules.
 - Right to nominate: student can record a nominee to exercise rights if they die or become incapable. Optional field in account settings.
 - Consent withdrawal and purpose objection handled through same request channel as access.

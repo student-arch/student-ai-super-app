@@ -1,8 +1,8 @@
 # PRD — MVP Scope
 
-Version: 0.19.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, read-only fully consistent
+Version: 0.20.0-approved | Date: 2026-09-21 | Status: Agent-ready freeze, read-only, first-year free
 
-This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.15.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.10.0 are now included below as approved scope for new docs.
+This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.19.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.20.0 are now included below as approved scope for new docs. Build order for agents in AGENT-START-HERE.md.
 
 ## 1. Problem Statement
 Students juggle PYQs, notes, tests, revision, timetable, and attendance across disconnected tools. The full 14-module vision is too large for an initial release.

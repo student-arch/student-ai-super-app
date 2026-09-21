@@ -1,4 +1,4 @@
-Version: 0.10.0-approved | Date: 2026-09-21 | Status: Vision v0.10.0 applies, all aligned.
+Version: 0.20.0-approved | Date: 2026-09-21 | Status: Agent-ready freeze, vision v0.19.0 applies, P1/P2 still proposals.
 
 > Rule: Nothing here modifies `student-ai-super-app-complete-feature-list.md`. Original vision file remains read-only. Approvals below apply to new docs only.
 

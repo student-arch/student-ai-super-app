@@ -1,6 +1,6 @@
 # Roadmap — Phased Delivery Plan
 
-Version: 0.19.2-approved | Date: 2026-09-21 | Status: Storage wording fixed, read-only consistent
+Version: 0.20.0-approved | Date: 2026-09-21 | Status: Agent-ready freeze, build order in AGENT-START-HERE.md
 
 ## Phase 0 — Supabase Setup plus DPDP Readiness (prerequisite) — APPROVED
 - Provision development, staging, production projects.

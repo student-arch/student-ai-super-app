@@ -1,8 +1,8 @@
 # Services Needed — India MVP Catalog (Specification Only, No Code)
 
-Version: 0.13.0-approved | Date: 2026-09-21 | Status: Approved, vision v0.10.0 applies
+Version: 0.20.0-approved | Date: 2026-09-21 | Status: Agent-ready freeze, read-only maintainer-seeded
 
-Scope: India-only student MVP. Student-only logins, English only, full-auto content pipeline with no reviewer queue. This file lists services only. No code, no keys, no vendor selection beyond open choices.
+Scope: India-only student MVP. Student-only read-only logins, English only, maintainer-seeded content with no user uploads and no reviewer queue. This file lists services only. No code, no keys, no vendor selection beyond open choices.
 
 Related: SUPABASE-PLAN.md for backend mapping, ARCHITECTURE-PLAN.md for modules, COMPLIANCE-DPDP.md for DPDP duties, ROADMAP.md Phase 0 for setup order, FOUNDER-STARTUP-GAPS.md for costs.
 
@@ -12,11 +12,11 @@ Related: SUPABASE-PLAN.md for backend mapping, ARCHITECTURE-PLAN.md for modules,
 |---------|-------------|------------|
 | Supabase Auth | Google sign-in plus email password, email OTP, reset, sessions, logout-all | No phone OTP, no SMS. See SUPABASE-PLAN.md Sec 3 |
 | Supabase managed database | All MVP entities per DATA-MODEL-SPEC.md with owner references and auto-approval status | Prod region choice open with India data-residency preference. See Sec 4 |
-| Supabase file storage | 7 buckets per SUPABASE-PLAN.md Sec 4, private-by-default, auto-checks gate sharing | 100 MB starter per student. Confirm against current pricing |
+| Supabase file storage | 4 buckets per SUPABASE-PLAN.md Sec 4: seeded PYQs, seeded materials, exports, gated community media. Private-by-default, maintainer-seeded reads | Shared library sized per pilot scope plus per-student export cache. No personal uploads. Confirm against current pricing |
 | Scheduled jobs and server orchestration | Due-cards, reminders, attendance recalc, AI orchestration, calendar export | AI calls server-side only. Usage counters enforce 5 notes, 3 tests, 5 summaries per day |
-| AI provider | Summaries, notes, test generation, doubt answers, OCR assist, formula help | Server-side only. Transfer map required if provider handles data outside India. See COMPLIANCE-DPDP.md Sec 10 |
+| AI provider | Seeded summaries, notes, test banks, doubt answers, formula help | Server-side only. First-year free 5 notes, 3 tests, 5 summaries per day. Transfer map required if provider handles data outside India. See COMPLIANCE-DPDP.md Sec 10 |
 | Email provider | OTP, reset, notifications, grievance updates | India inbox deliverability required. Vendor choice open |
-| Push provider | Flashcard, test, attendance, deadline, grievance updates | Email plus push only. No SMS |
+| Push provider | Test, attendance, deadline, grievance updates | Email plus push only. No SMS |
 | Calendar export | Timetable and deadline export via server orchestration | External calendar integration, no staff sync |
 | Domain and hosting front | App hosting plus domain, preferably with India-friendly latency | `.in` optional. No prod secrets in client |
 | Backups and monitoring | Point-in-time recovery, restore test, auth and storage and job and AI cost monitoring with no student content in logs | Production only. See SUPABASE-PLAN.md Sec 7 |
@@ -24,10 +24,10 @@ Related: SUPABASE-PLAN.md for backend mapping, ARCHITECTURE-PLAN.md for modules,
 ## 2. India Constraints Applied
 
 - DPDP build-now for 13 May 2027 duties: fiduciary model, lawful ground per purpose, processor contracts, accuracy, safeguards per Rules rule 6, without-delay plus 72-hour Board breach path, retention erasure, under-18 age gate with verifiable parental consent, access plus 90-day grievance plus nominee, transfer map, SDF watch. Full guide in COMPLIANCE-DPDP.md.
-- College ID as sensitive: verification by automated checks only, masked, owner-only files, never public.
+- Self-declared college text only. No ID files collected. Masking not needed.
 - University and syllabus-version filtering for PYQs and materials. Regulation versions stored per subject, no hard-coded list in this doc.
 - English only for MVP. Regional languages deferred to Phase 2 proposal.
-- Payments deferred: no UPI or subscriptions in MVP. Paid tier decision open, no unlimited-AI promise.
+- Payments deferred to year 2: no UPI or subscriptions in first-year free MVP. No unlimited-AI promise.
 
 ## 3. Explicitly Out for India MVP
 
@@ -51,5 +51,5 @@ Related: SUPABASE-PLAN.md for backend mapping, ARCHITECTURE-PLAN.md for modules,
 
 ## 6. Change Impact
 
-- New file only. No changes to vision scope beyond existing v0.10.0 formula lines.
+- New file only. Vision v0.19.0 read-only applies. No scope change beyond v0.19.0.
 - README.md index and DOCUMENTATION-GUIDE.md ownership updated.
