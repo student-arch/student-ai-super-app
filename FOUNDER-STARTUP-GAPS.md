@@ -1,6 +1,6 @@
 # Founder Startup Gaps — What You Are Missing to Start Up
 
-Version: 0.19.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, read-only fully consistent
+Version: 0.19.2-approved | Date: 2026-09-21 | Status: Storage wording fixed, read-only consistent
 
 You have product vision plus MVP scope plus backend plus DPDP plan. As a first-time founder, these non-product pieces are still missing. All proposals below are doc-only. No code. Vision list not modified.
 
@@ -77,7 +77,7 @@ If solo: you own the legal contacts plus builder duties until first teammate.
 
 ### Free limits starter
 - AI notes: 5 per student per day. Tests: 3 per student per day. Summaries: 5 per student per day.
-- Storage: 100 MB per student for personal uploads.
+- Storage: shared seeded library sized per pilot scope plus per-student annotation and export cache. No personal uploads.
 - Channels: email plus push only. No SMS.
 - Why: caps Supabase plus AI cost before paid tier. Prevents unlimited-AI promise.
 - Applied to: SUPABASE-PLAN.md Section 10, ROADMAP.md Phase 0.

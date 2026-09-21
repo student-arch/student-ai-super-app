@@ -35,6 +35,6 @@ Learn → Practice → Test → Identify Weaknesses → Improve → Track Attend
 4. Keep all docs consistent when requirements change. COMPLIANCE-DPDP.md is authoritative for DPDP.
 
 ## Status
-- Version: 0.19.1-approved
+- Version: 0.19.2-approved
 - Last updated: 2026-09-21
-- State: Stale refs fixed, read-only fully consistent. First-year free.
+- State: Storage wording fixed, read-only consistent. First-year free.
