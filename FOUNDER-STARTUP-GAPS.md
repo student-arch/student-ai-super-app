@@ -1,6 +1,6 @@
 # Founder Startup Gaps — What You Are Missing to Start Up
 
-Version: 0.10.0-approved | Date: 2026-09-21 | Status: Vision v0.10.0 applies, all aligned
+Version: 0.11.0-approved | Date: 2026-09-21 | Status: Capacity targets added, no code
 
 You have product vision plus MVP scope plus backend plus DPDP plan. As a first-time founder, these non-product pieces are still missing. All proposals below are doc-only. No code. Vision list not modified.
 
@@ -20,7 +20,8 @@ Missing: who provides PYQs and checks accuracy.
 
 ## 3. Money — Costs and Pricing
 Missing: monthly cost ceiling and freemium line.
-- Cost heads: Supabase project, file storage 100 MB starter per student, email and push provider, domain, AI orchestration with starter 5 notes, 3 tests, 5 summaries per day. See SUPABASE-PLAN.md Sec 10 and Section 10 below.
+- Cost heads: Supabase project tier, file storage 100 MB starter per student plus overage, database backups, email and push provider volume, domain, AI orchestration with starter 5 notes, 3 tests, 5 summaries per day. See SUPABASE-PLAN.md Sec 10 and Section 10 below.
+- Capacity plan: 100 pilot, 1,000 Phase 1, 10,000 Phase 2. Confirm against current vendor pricing before promising scale. See SUPABASE-PLAN.md Sec 10.
 - Starter locked: free limits above, paid tier open. Do not promise unlimited AI.
 - Runway: keep MVP to Phase 0 plus Phase 1 only. Phase 2 and 3 cost extra.
 

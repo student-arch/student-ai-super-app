@@ -33,6 +33,6 @@ Learn → Remember → Practice → Test → Identify Weaknesses → Improve →
 4. Keep all docs consistent when requirements change. COMPLIANCE-DPDP.md is authoritative for DPDP.
 
 ## Status
-- Version: 0.10.0-approved
+- Version: 0.11.0-approved
 - Last updated: 2026-09-21
-- State: Formula rendering added. English-only MVP. Vision v0.9.0 plus formula lines applies.
+- State: Capacity targets 100 / 1k / 10k added. Formula done. English-only MVP.

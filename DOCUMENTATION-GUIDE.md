@@ -1,6 +1,6 @@
 # Documentation Guide — Consistency and Approval Workflow
 
-Version: 0.10.0-approved | Date: 2026-09-21
+Version: 0.11.0-approved | Date: 2026-09-21
 
 ## 1. Scope
 - Create and maintain `.md` files only. No code generation.
@@ -53,3 +53,4 @@ When a change is approved, append here:
 | 2026-09-21 | User (okey review fix) | Stale-ref cleanup to v0.9.1: vision v0.9.0 applied refs, PRD login wording, README source note. All aligned | FEATURE-GAPS, SUPABASE-PLAN, COMPLIANCE-DPDP, PRD-MVP, DATA-MODEL-SPEC, ROADMAP, FOUNDER-STARTUP-GAPS, README |
 | 2026-09-21 | User (formula rendering) | Formula rendering specced: LaTeX entry, crisp display, fallback, error preview in notes/tests/flashcards/materials/doubts | PRD-MVP, ARCHITECTURE-PLAN, DATA-MODEL-SPEC, ROADMAP, student-ai-super-app-complete-feature-list.md, README |
 | 2026-09-21 | User (okey alignment) | Align all to v0.10.0, vision footer v0.10.0, report-wrong-question in Phase 1 exit | FEATURE-GAPS, COMPLIANCE-DPDP, FOUNDER-STARTUP-GAPS, SUPABASE-PLAN, PRD-MVP, ROADMAP |
+| 2026-09-21 | User (how many users) | Capacity targets 100 pilot / 1k Phase 1 / 10k Phase 2 plus monthly cost heads, plan-dependent | SUPABASE-PLAN, FOUNDER-STARTUP-GAPS, README |
