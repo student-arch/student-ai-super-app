@@ -1,6 +1,6 @@
 # PRD — MVP Scope
 
-Version: 0.15.0-approved | Date: 2026-09-21 | Status: Flashcards removed for cost, full-auto student-only
+Version: 0.16.0-approved | Date: 2026-09-21 | Status: Seed-once shared library, full-auto, no reviewer logins
 
 This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.9.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.9.1 are now included below as approved scope for new docs.
 
@@ -32,7 +32,8 @@ Acceptance: new student can complete onboarding via Google or email and see pers
 - PYQs by subject, semester, university, branch, year, topic and chapter.
 - Search, filter, bookmark, recently viewed, saved organization.
 - PDF viewer with approved annotation: highlight, note, bookmark anchors. Download (subject to rights).
-- Contributor submit flow with reviewer approve and reject (approved role, see Section 5).
+- Student uploads publish via automated checks only. No reviewer queue. See Section 5.
+- Seed-once shared library by ops outside the app (no admin login): PYQs, standard materials, notes, test banks, formula packs seeded once per pilot scope, refreshed per semester and on report thresholds. Students read-only plus report-wrong-content.
 
 Acceptance: student can filter by subject plus semester, open viewer, annotate, bookmark, and find it under Saved.
 
@@ -88,6 +89,7 @@ Acceptance: marking holiday does not lower percentage; setting 75% target highli
 ## 5. User Roles (MVP) — APPROVED full-auto student-only
 - Student: only app login. All MVP features. No college staff login. No reviewer or admin logins.
 - Uploads: student uploads go live via automated checks only — file type and size, duplicate detection, text-extraction sanity, spam and abuse filters. No human approve queue.
+- Seed-once ops seeding happens outside the app with no login: ops loads PYQs, materials, notes, test banks, formula packs once per scope, refreshes per semester and on report thresholds. Students read-only.
 - Reports: report-wrong-question and report-content trigger auto-hide plus auto-takedown rules with audit log. No human triage queue in MVP.
 - DPDP legal contacts (grievance response and breach reporting owners) remain named humans as required by law. They are not app moderation roles and have no content-approval queue. See COMPLIANCE-DPDP.md.
 

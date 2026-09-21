@@ -1,6 +1,6 @@
 # Supabase Backend Plan (Specification Only, No Code)
 
-Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto checks, no reviewer queue
+Version: 0.16.0-approved | Date: 2026-09-21 | Status: Seed-once library added, full-auto
 
 This document records Supabase as the approved backend platform for the Student AI Super-App MVP. It contains planning descriptions only. No SQL, no policy code, no API code, no keys.
 
@@ -39,8 +39,8 @@ Related docs: ARCHITECTURE-PLAN.md for module boundaries, DATA-MODEL-SPEC.md for
 
 ## 4. Storage Bucket Plan (Names Are Labels, Not Code)
 
-- question-papers-approved: read by all authenticated students, write by student upload with automated checks only. No reviewer queue.
-- study-materials-approved: same as above.
+- question-papers-approved: read by all authenticated students, write by student upload with automated checks plus ops seeding outside the app. No reviewer queue.
+- study-materials-approved: same as above, plus ops-seeded standard notes, test banks, formula packs refreshed per semester and on report thresholds.
 - personal-uploads-private: owner-only. Holds personal PDFs, photos for OCR, drafts.
 - college-id-private: owner-only plus automated verification checks. Never public. No reviewer browsing.
 - note-exports-private: owner-only generated exports.

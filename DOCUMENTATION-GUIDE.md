@@ -1,6 +1,6 @@
 # Documentation Guide — Consistency and Approval Workflow
 
-Version: 0.15.0-approved | Date: 2026-09-21
+Version: 0.16.0-approved | Date: 2026-09-21
 
 ## 1. Scope
 - Create and maintain `.md` files only. No code generation.
@@ -60,3 +60,4 @@ When a change is approved, append here:
 | 2026-09-21 | User (services india + md) | India services catalog created. New SERVICES-INDIA.md. No code | SERVICES-INDIA, README |
 | 2026-09-21 | User (all ai features md) | AI features catalog created. New AI-FEATURES.md with cost tiers. No code | AI-FEATURES, README |
 | 2026-09-21 | User (remove flashcards) | Flashcards removed v0.15.0 for AI and storage cost, revision via notes plus tests | student-ai-super-app-complete-feature-list.md, PRD-MVP, ARCHITECTURE-PLAN, DATA-MODEL-SPEC, ROADMAP, AI-FEATURES, README |
+| 2026-09-21 | User (admin seed-once) | Seed-once shared library: ops seeds PYQs/materials/notes/tests/formulas once, refresh per semester, no admin login | PRD-MVP, SUPABASE-PLAN, ROADMAP, README |

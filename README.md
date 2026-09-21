@@ -35,6 +35,6 @@ Learn → Remember → Practice → Test → Identify Weaknesses → Improve →
 4. Keep all docs consistent when requirements change. COMPLIANCE-DPDP.md is authoritative for DPDP.
 
 ## Status
-- Version: 0.15.0-approved
+- Version: 0.16.0-approved
 - Last updated: 2026-09-21
-- State: Flashcards removed for cost. Full-auto student-only MVP. AI catalog applies without Sec5.
+- State: Seed-once shared library added. Full-auto student-only MVP, no reviewer logins.

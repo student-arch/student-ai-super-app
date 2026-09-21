@@ -1,12 +1,13 @@
 # Roadmap — Phased Delivery Plan
 
-Version: 0.15.0-approved | Date: 2026-09-21 | Status: Flashcards removed, full-auto, no reviewer queue
+Version: 0.16.0-approved | Date: 2026-09-21 | Status: Seed-once library added, full-auto
 
 ## Phase 0 — Supabase Setup plus DPDP Readiness (prerequisite) — APPROVED
 - Provision development, staging, production projects.
 - Configure Auth methods: Google sign-in plus email only (password, email OTP, reset). No phone OTP.
 - Configure storage buckets per SUPABASE-PLAN.md Section 4, access principles per Section 5.
 - Enable backups for production. Apply starter locks: 100 MB per student, 5 notes, 3 tests, 5 summaries per day. See FOUNDER-STARTUP-GAPS.md Section 10.
+- Seed-once: ops loads PYQs, materials, notes, test banks, formula packs once per pilot scope outside the app, refreshes per semester and on report thresholds. No admin login.
 - Pilot scope: 1 college, 1 branch, 1 semester (Pilot-College-TBD until named). Goal 100 waitlist.
 - DPDP build-now checklist per COMPLIANCE-DPDP.md Section 11: purposes recorded, processor contracts reviewed, access owners named with ID masking, breach playbook with without-delay user notice and 72-hour Board path, retention categories, age gate with parental consent, access export plus 90-day grievance plus nominee, transfer map, SDF watch. Build now for duties scheduled 13 May 2027.
 
@@ -15,7 +16,7 @@ Objective: usable daily study loop.
 
 Includes:
 - Dashboard and profile plus approved additions: auth recovery and verification, CGPA tracker, assignments tracker.
-- PYQ library, materials, notes generation plus approved additions: annotation, OCR import, syllabus checklist, lecture-link notes, formula rendering with fallback.
+- PYQ library, materials, notes generation plus seed-once library: annotation, OCR import, syllabus checklist, lecture-link notes, formula rendering with fallback. Students read seeded packs plus own uploads.
 - AI doubt assistance, test and mock system subset (single-definition rule) with formula rendering.
 - Revision without flashcards: saved notes, incorrect-answer review, retakes, syllabus checklist. No spaced-repetition scheduling.
 - Weekly timetable, date exceptions, attendance with targets, self-marked only.
