@@ -1,6 +1,6 @@
 # PRD — MVP Scope
 
-Version: 0.9.1-approved | Date: 2026-09-21 | Status: English-only MVP, vision v0.9.0 applies
+Version: 0.10.0-approved | Date: 2026-09-21 | Status: Formula rendering added, English-only, vision v0.9.0 applies
 
 This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.9.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.9.1 are now included below as approved scope for new docs.
 
@@ -41,10 +41,11 @@ Acceptance: student can filter by subject plus semester, open viewer, annotate, 
 - PDF viewer, personal PDF upload, summarization, key points, definitions, formulas, important questions extraction.
 - Approved additions: photo-to-text import via OCR, syllabus unit-wise completion checklist linked to materials.
 - Bookmarking and annotation (highlight, note).
+- Formula rendering: LaTeX-style entry with live preview, crisp display in viewer, text fallback for accessibility, error preview for bad syntax. Applies to materials, notes, tests, flashcards, doubt answers.
 
 Out of MVP: offline access management UI is deferred to Phase 2. See ROADMAP.
 
-Acceptance: uploaded PDF produces summary plus key points and can be bookmarked. Syllabus checklist shows percent-complete per subject.
+Acceptance: uploaded PDF produces summary plus key points and can be bookmarked. Syllabus checklist shows percent-complete per subject. Formulas render crisply with readable fallback when syntax is invalid.
 
 ### 3.4 Notes Generation (subset)
 - AI notes by topic and chapter, from uploaded PDFs. Single definition point for AI notes (see clarification in FEATURE-GAPS.md).

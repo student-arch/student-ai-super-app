@@ -59,6 +59,7 @@ PDF Content Summarization
 Important Topics Extraction
 Key Points and Definitions Extraction
 Formula Extraction
+Formula Rendering with Live Preview, Crisp Display, Text Fallback, and Error Preview
 Important Questions Extraction
 Study Material Bookmarking
 Student Contributor Submit Flow with Internal Reviewer Approve and Reject
@@ -74,6 +75,7 @@ Short Revision Notes
 Detailed Study Notes
 Important Definitions
 Formula-Based Notes
+Formula Rendering with Live Preview, Crisp Display, Text Fallback, and Error Preview
 Concept-Wise Notes
 Exam-Oriented Notes
 Notes Organization by Subject
@@ -152,6 +154,7 @@ Edit and Delete Flashcards
 Question-and-Answer Flashcards
 Definition-Based Flashcards
 Formula-Based Flashcards
+Formula Rendering with Live Preview, Crisp Display, Text Fallback, and Error Preview
 Image-Supported Flashcards
 Rich-Text Flashcard Editor
 Deck Creation

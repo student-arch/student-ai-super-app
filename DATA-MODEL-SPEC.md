@@ -1,6 +1,6 @@
 # Data Model Spec (Specification Only)
 
-Version: 0.9.1-approved | Date: 2026-09-21 | Status: Vision v0.9.0 applies, no implementation
+Version: 0.10.0-approved | Date: 2026-09-21 | Status: Formula fields added, vision v0.9.0 applies, no implementation
 
 Conventions: each entity lists key attributes in plain language. No SQL, no code. Supabase mapping: each entity corresponds to managed database tables with owner references and approval status fields, files live in storage buckets per SUPABASE-PLAN.md Section 4.
 
@@ -35,11 +35,12 @@ Conventions: each entity lists key attributes in plain language. No SQL, no code
 ## 4. Note
 - Owner, subject, chapter, topic, source reference (PDF, material, manual).
 - Content revisions, note type (short, detailed, exam-oriented).
+- Formula blocks with source text, rendered output reference, validity flag, text fallback. See ARCHITECTURE-PLAN.md rendering rule.
 - Saved, exported, and search indexing flags.
 
 ## 5. Test and Attempt
 - Test: owner, scope (subject, topic, chapter, syllabus), question list, difficulty, time limit, mode.
-- Question: type (MCQ, True/False, short, long), prompt, options, correct answer reference, explanation.
+- Question: type (MCQ, True/False, short, long), prompt, options, correct answer reference, explanation. Formula blocks as in Note entity, with validity flag and fallback.
 - Attempt: student, test, answers, score, per-question correctness, timestamps, retake linkage.
 
 ## 6. Doubt Session
@@ -47,7 +48,7 @@ Conventions: each entity lists key attributes in plain language. No SQL, no code
 
 ## 7. Flashcard System
 - Deck: owner, subject, topic, parent deck for subdecks.
-- Card: deck, front and back content, card type, media references, bookmark flag.
+- Card: deck, front and back content, card type, media references, formula blocks as in Note entity, bookmark flag.
 - Review state: ease, interval, due date, last rating (Again, Hard, Good, Easy), history preserving edits.
 
 ## 8. Timetable

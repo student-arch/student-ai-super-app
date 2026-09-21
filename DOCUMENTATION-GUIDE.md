@@ -1,6 +1,6 @@
 # Documentation Guide — Consistency and Approval Workflow
 
-Version: 0.9.1-approved | Date: 2026-09-21
+Version: 0.10.0-approved | Date: 2026-09-21
 
 ## 1. Scope
 - Create and maintain `.md` files only. No code generation.
@@ -51,3 +51,4 @@ When a change is approved, append here:
 | 2026-09-21 | User (improve vision) | Vision list improved with approval: student-only header, P0 auth/academic/DPDP rights, annotation/OCR/lecture-link/contributor, AI single-refs, attendance/moderation/diet/privacy clarified | student-ai-super-app-complete-feature-list.md, README |
 | 2026-09-21 | User (english only) | English-only MVP locked, regional deferred to Phase 2. Vision v0.9.0 applies | PRD-MVP, ARCHITECTURE-PLAN, README |
 | 2026-09-21 | User (okey review fix) | Stale-ref cleanup to v0.9.1: vision v0.9.0 applied refs, PRD login wording, README source note. All aligned | FEATURE-GAPS, SUPABASE-PLAN, COMPLIANCE-DPDP, PRD-MVP, DATA-MODEL-SPEC, ROADMAP, FOUNDER-STARTUP-GAPS, README |
+| 2026-09-21 | User (formula rendering) | Formula rendering specced: LaTeX entry, crisp display, fallback, error preview in notes/tests/flashcards/materials/doubts | PRD-MVP, ARCHITECTURE-PLAN, DATA-MODEL-SPEC, ROADMAP, student-ai-super-app-complete-feature-list.md, README |

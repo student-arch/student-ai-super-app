@@ -1,6 +1,6 @@
 # Roadmap — Phased Delivery Plan
 
-Version: 0.9.1-approved | Date: 2026-09-21 | Status: Vision v0.9.0 applies, all aligned
+Version: 0.10.0-approved | Date: 2026-09-21 | Status: Formula rendering added, vision v0.9.0 applies
 
 ## Phase 0 — Supabase Setup plus DPDP Readiness (prerequisite) — APPROVED
 - Provision development, staging, production projects.
@@ -15,8 +15,8 @@ Objective: usable daily study loop.
 
 Includes:
 - Dashboard and profile plus approved additions: auth recovery and verification, CGPA tracker, assignments tracker.
-- PYQ library, materials, notes generation plus approved additions: annotation, OCR import, syllabus checklist, lecture-link notes.
-- AI doubt assistance, test and mock system subset (single-definition rule).
+- PYQ library, materials, notes generation plus approved additions: annotation, OCR import, syllabus checklist, lecture-link notes, formula rendering with fallback.
+- AI doubt assistance, test and mock system subset (single-definition rule) with formula rendering.
 - Flashcards with spaced repetition.
 - Weekly timetable, date exceptions, attendance with targets, self-marked only.
 - Student contributor plus internal reviewer flows for content approval. No college staff accounts.
@@ -25,8 +25,8 @@ Exit criteria:
 - Onboarding to dashboard works, including reset and logout-all.
 - PYQ search, view, annotate, bookmark works.
 - PDF upload to summary works. Syllabus checklist percent-complete works.
-- Timed MCQ test with history works.
-- Spaced repetition rescheduling works.
+- Timed MCQ test with history works, including formula questions.
+- Spaced repetition rescheduling works, including formula cards.
 - Holiday and cancelled classes do not lower attendance.
 - Contributor submit to reviewer approve works.
 - Privacy request creates trackable grievance with 90-day response cap. Access export includes sharing list.
