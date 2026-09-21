@@ -1,6 +1,6 @@
 # Roadmap — Phased Delivery Plan
 
-Version: 0.16.0-approved | Date: 2026-09-21 | Status: Seed-once library added, full-auto
+Version: 0.16.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, flashcards fully out
 
 ## Phase 0 — Supabase Setup plus DPDP Readiness (prerequisite) — APPROVED
 - Provision development, staging, production projects.
@@ -11,7 +11,7 @@ Version: 0.16.0-approved | Date: 2026-09-21 | Status: Seed-once library added, f
 - Pilot scope: 1 college, 1 branch, 1 semester (Pilot-College-TBD until named). Goal 100 waitlist.
 - DPDP build-now checklist per COMPLIANCE-DPDP.md Section 11: purposes recorded, processor contracts reviewed, access owners named with ID masking, breach playbook with without-delay user notice and 72-hour Board path, retention categories, age gate with parental consent, access export plus 90-day grievance plus nominee, transfer map, SDF watch. Build now for duties scheduled 13 May 2027.
 
-## Phase 1 — MVP (Learn, Practice, Remember, Attend) — APPROVED
+## Phase 1 — MVP (Learn, Practice, Test, Attend) — APPROVED
 Objective: usable daily study loop.
 
 Includes:
@@ -45,7 +45,7 @@ Includes (from vision list, pending detailed PRD):
 Objective: collaboration and career launch.
 
 Includes:
-- Team-up, team management, communities with moderation (moderation approved as prerequisite spec, UI in Phase 3).
+- Team-up, team management, communities with auto-filters plus auto-hide on reports, UI in Phase 3. No human moderation queue.
 - Project workspace, showcase, portfolio entries.
 - Placement prep, mock interviews, resume builder (still proposal, not approved).
 - GK feed, wellness reminders, full analytics.

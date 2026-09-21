@@ -1,6 +1,6 @@
 # Supabase Backend Plan (Specification Only, No Code)
 
-Version: 0.16.0-approved | Date: 2026-09-21 | Status: Seed-once library added, full-auto
+Version: 0.16.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, flashcards fully out
 
 This document records Supabase as the approved backend platform for the Student AI Super-App MVP. It contains planning descriptions only. No SQL, no policy code, no API code, no keys.
 
@@ -105,7 +105,7 @@ Starter locks APPROVED 2026-09-21, changeable:
 
 Capacity targets APPROVED 2026-09-21 (plan-dependent, load-test before launch):
 - Phase 1 target: 1,000 registered students on paid Supabase project. Planning max: ~100 GB personal storage plus shared PYQ library, ~13,000 AI calls per day at full free-limit use.
-- Phase 2 target: 10,000 registered students. Requires prod region choice, read scaling, storage lifecycle, reviewer throughput, grievance staffing for 90-day cap, SDF watch.
+- Phase 2 target: 10,000 registered students. Requires prod region choice, read scaling, storage lifecycle, auto-check throughput, grievance staffing for 90-day cap, SDF watch.
 - Pilot: 100 waitlist users, ~10 GB plus ~1,300 AI calls per day max.
 - Cost heads to track monthly: Supabase project tier, file storage overage, database backups, email provider volume, push provider volume, domain, AI provider calls and tokens. No limits quoted here because vendor pricing changes — confirm against current pricing before launch.
 
@@ -122,4 +122,4 @@ Resolved in v0.4.0: Google sign-in included. Email OTP sufficient. Phone OTP exc
 - DATA-MODEL-SPEC.md gains Supabase mapping note, no entity changes.
 - ROADMAP.md gains Phase 0 Supabase setup prerequisite plus DPDP checklist.
 - COMPLIANCE-DPDP.md is the authoritative DPDP summary. This section defers to it.
-- Vision `student-ai-super-app-complete-feature-list.md` v0.9.0 applies.
+- Vision `student-ai-super-app-complete-feature-list.md` v0.15.0 applies.

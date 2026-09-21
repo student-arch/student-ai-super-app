@@ -1,8 +1,8 @@
 # PRD — MVP Scope
 
-Version: 0.16.0-approved | Date: 2026-09-21 | Status: Seed-once shared library, full-auto, no reviewer logins
+Version: 0.16.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, flashcards fully out
 
-This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.9.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.9.1 are now included below as approved scope for new docs.
+This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.15.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.10.0 are now included below as approved scope for new docs.
 
 ## 1. Problem Statement
 Students juggle PYQs, notes, tests, revision, timetable, and attendance across disconnected tools. The full 14-module vision is too large for an initial release.
@@ -12,7 +12,7 @@ Students juggle PYQs, notes, tests, revision, timetable, and attendance across d
 - Find and study PYQs and materials by subject, semester, university.
 - Generate notes and clear doubts with AI assistance.
 - Practice with timed tests and review incorrect answers.
-- Retain with flashcards and spaced repetition.
+- Revise via saved notes, incorrect-answer review, retakes, syllabus checklist. No flashcards.
 - Track weekly timetable, one-day exceptions, and attendance vs target.
 
 ## 3. In Scope (Phase 1)
@@ -42,7 +42,7 @@ Acceptance: student can filter by subject plus semester, open viewer, annotate, 
 - PDF viewer, personal PDF upload, summarization, key points, definitions, formulas, important questions extraction.
 - Approved additions: photo-to-text import via OCR, syllabus unit-wise completion checklist linked to materials.
 - Bookmarking and annotation (highlight, note).
-- Formula rendering: LaTeX-style entry with live preview, crisp display in viewer, text fallback for accessibility, error preview for bad syntax. Applies to materials, notes, tests, flashcards, doubt answers.
+- Formula rendering: LaTeX-style entry with live preview, crisp display in viewer, text fallback for accessibility, error preview for bad syntax. Applies to materials, notes, tests, doubt answers. No flashcards.
 
 Out of MVP: offline access management UI is deferred to Phase 2. See ROADMAP.
 

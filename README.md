@@ -4,11 +4,11 @@
 A comprehensive student platform covering exam preparation, AI-powered learning, attendance tracking, career development, student communities, events, and personal productivity.
 
 Core student journey:
-Learn → Remember → Practice → Test → Identify Weaknesses → Improve → Track Attendance → Develop Skills → Build Projects → Find Teammates → Discover Opportunities → Prepare for a Career
+Learn → Practice → Test → Identify Weaknesses → Improve → Track Attendance → Develop Skills → Build Projects → Find Teammates → Discover Opportunities → Prepare for a Career
 
 ## Source of Truth
-- Existing vision list: `student-ai-super-app-complete-feature-list.md` v0.9.0
-  - Last approved edit v0.9.0 with student-only + P0 + DPDP rights. Further edits need explicit user approval.
+- Existing vision list: `student-ai-super-app-complete-feature-list.md` v0.15.0
+  - Last approved edit v0.15.0 with flashcards removal. Prior v0.10.0 formula lines, v0.9.0 student-only + P0 + DPDP rights. Further edits need explicit user approval.
   - All new documentation references it but does not duplicate it verbatim.
 
 ## Documentation Set (Approved 2026-09-21)
@@ -25,7 +25,7 @@ Learn → Remember → Practice → Test → Identify Weaknesses → Improve →
 | `COMPLIANCE-DPDP.md` | DPDP build-now guide: fiduciary duties, breach, retention, children, rights, transfers, SDF watch. Spec only, not legal advice |
 | `FOUNDER-STARTUP-GAPS.md` | First-time founder gaps: users, content, money, legal beyond DPDP, launch, metrics, owners. Spec only |
 | `SERVICES-INDIA.md` | India MVP services catalog: required services, India constraints, out-of-scope, open choices. Spec only, no code |
-| `AI-FEATURES.md` | AI features catalog: materials, notes, tests, doubts, flashcards, cross-cutting rules, cost tiers. Spec only, no code |
+| `AI-FEATURES.md` | AI features catalog: materials, notes, tests, doubts, cross-cutting rules, cost tiers. Flashcards removed. Spec only, no code |
 | `DOCUMENTATION-GUIDE.md` | Consistency rules and approval workflow |
 
 ## Workflow Rules
@@ -35,6 +35,6 @@ Learn → Remember → Practice → Test → Identify Weaknesses → Improve →
 4. Keep all docs consistent when requirements change. COMPLIANCE-DPDP.md is authoritative for DPDP.
 
 ## Status
-- Version: 0.16.0-approved
+- Version: 0.16.1-approved
 - Last updated: 2026-09-21
-- State: Seed-once shared library added. Full-auto student-only MVP, no reviewer logins.
+- State: Stale refs fixed, flashcards fully out. Seed-once full-auto MVP.
