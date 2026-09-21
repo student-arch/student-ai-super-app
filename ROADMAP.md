@@ -1,6 +1,6 @@
 # Roadmap — Phased Delivery Plan
 
-Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto pipeline, no reviewer queue
+Version: 0.15.0-approved | Date: 2026-09-21 | Status: Flashcards removed, full-auto, no reviewer queue
 
 ## Phase 0 — Supabase Setup plus DPDP Readiness (prerequisite) — APPROVED
 - Provision development, staging, production projects.
@@ -17,7 +17,7 @@ Includes:
 - Dashboard and profile plus approved additions: auth recovery and verification, CGPA tracker, assignments tracker.
 - PYQ library, materials, notes generation plus approved additions: annotation, OCR import, syllabus checklist, lecture-link notes, formula rendering with fallback.
 - AI doubt assistance, test and mock system subset (single-definition rule) with formula rendering.
-- Flashcards with spaced repetition.
+- Revision without flashcards: saved notes, incorrect-answer review, retakes, syllabus checklist. No spaced-repetition scheduling.
 - Weekly timetable, date exceptions, attendance with targets, self-marked only.
 - Student uploads publish via automated checks only. Reports resolve via auto-hide and auto-takedown rules. No college staff accounts. No reviewer queue.
 
@@ -25,8 +25,8 @@ Exit criteria:
 - Onboarding to dashboard works, including reset and logout-all.
 - PYQ search, view, annotate, bookmark works.
 - PDF upload to summary works. Syllabus checklist percent-complete works.
-- Timed MCQ test with history works, including formula questions. Report-wrong-question creates reviewer triage item.
-- Spaced repetition rescheduling works, including formula cards.
+- Timed MCQ test with history works, including formula questions. Report-wrong-question auto-creates triage item with auto-hide rules.
+- Revision via notes, incorrect review, retakes works. No flashcard scheduling.
 - Holiday and cancelled classes do not lower attendance.
 - Contributor upload auto-approves via checks. Report-wrong-question auto-creates triage item with auto-hide rules.
 - Privacy request creates trackable grievance with 90-day response cap. Access export includes sharing list.

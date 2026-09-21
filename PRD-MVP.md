@@ -1,6 +1,6 @@
 # PRD — MVP Scope
 
-Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto content pipeline, student-only, no reviewer queue
+Version: 0.15.0-approved | Date: 2026-09-21 | Status: Flashcards removed for cost, full-auto student-only
 
 This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.9.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.9.1 are now included below as approved scope for new docs.
 
@@ -69,14 +69,9 @@ Acceptance: timed MCQ test auto-scores, shows explanations, stores history. Stud
 
 Acceptance: follow-up questions retain context within a study session.
 
-### 3.7 Flashcards and Spaced Repetition
-- AI generation from PDFs, notes, topics, chapters. Manual create, edit, delete.
-- Q/A, definition, formula cards. Image support basic.
-- Decks and subdecks by subject and topic, bookmarking.
-- Daily review, Again / Hard / Good / Easy scheduling, due notifications, progress and deck statistics, search.
-- Editing without resetting progress, import and export basic.
-
-Acceptance: review ratings reschedule cards and due counts update.
+### 3.7 Revision Without Flashcards — REMOVED v0.15.0
+- Flashcards system removed to control AI and storage cost, per approved removal.
+- Revision via saved notes, incorrect-answer review, test retakes, syllabus checklist. No decks, no scheduling, no due notifications.
 
 ### 3.8 Timetable and Attendance
 - Weekly setup, day-wise and period-wise views, subject and classroom details, semester timetable, editing.

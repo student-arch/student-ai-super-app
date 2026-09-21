@@ -1,6 +1,6 @@
 # Architecture Plan (No Implementation)
 
-Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto content pipeline, no reviewer queue
+Version: 0.15.0-approved | Date: 2026-09-21 | Status: Flashcards removed, full-auto, no reviewer queue
 
 Backend choice: Supabase. Details in SUPABASE-PLAN.md. This file keeps module boundaries and cross-cutting rules.
 
@@ -13,7 +13,7 @@ Backend choice: Supabase. Details in SUPABASE-PLAN.md. This file keeps module bo
 | Content Library | PYQs, materials, PDF metadata, bookmarks, uploads, annotations, approval status | Identity |
 | Notes and AI Study | Notes, summaries, doubt sessions, explanations, OCR imports, lecture-link notes | Content Library, Identity |
 | Assessment | Tests, questions, attempts, scores, explanations | Notes and AI Study, Content Library |
-| Revision | Decks, cards, review schedule, statistics | Notes and AI Study |
+| Revision Without Flashcards (v0.15.0) | Saved-notes review, incorrect-answer review, retakes, syllabus checklist. No decks, no scheduling | Notes and AI Study |
 | Timetable | Weekly template, date exceptions, holidays | Identity |
 | Attendance | Records per period, targets, recovery estimates | Timetable |
 | Engagement (Phase 2+) | Career, events, teams, community, projects, GK, wellness, notifications, search, analytics | Identity plus Phase 1 modules |

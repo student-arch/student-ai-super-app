@@ -1,6 +1,6 @@
 # Data Model Spec (Specification Only)
 
-Version: 0.12.0-approved | Date: 2026-09-21 | Status: Full-auto approval fields, no implementation
+Version: 0.15.0-approved | Date: 2026-09-21 | Status: Flashcards removed, no implementation
 
 Conventions: each entity lists key attributes in plain language. No SQL, no code. Supabase mapping: each entity corresponds to managed database tables with owner references and approval status fields, files live in storage buckets per SUPABASE-PLAN.md Section 4.
 
@@ -46,10 +46,8 @@ Conventions: each entity lists key attributes in plain language. No SQL, no code
 ## 6. Doubt Session
 - Student, topic context, message sequence, linked material references, follow-up linkage.
 
-## 7. Flashcard System
-- Deck: owner, subject, topic, parent deck for subdecks.
-- Card: deck, front and back content, card type, media references, formula blocks as in Note entity, bookmark flag.
-- Review state: ease, interval, due date, last rating (Again, Hard, Good, Easy), history preserving edits.
+## 7. Flashcard System — REMOVED v0.15.0
+- Removed to control AI and storage cost. No decks, cards, review states, or due scheduling. Revision uses Note, Test Attempt incorrect review, and Syllabus Checklist entities.
 
 ## 8. Timetable
 - Weekly template: semester, day of week, period order, start and end time, subject, faculty name display-only with classroom. No staff login.

@@ -1,6 +1,6 @@
 # Documentation Guide — Consistency and Approval Workflow
 
-Version: 0.14.0-approved | Date: 2026-09-21
+Version: 0.15.0-approved | Date: 2026-09-21
 
 ## 1. Scope
 - Create and maintain `.md` files only. No code generation.
@@ -59,3 +59,4 @@ When a change is approved, append here:
 | 2026-09-21 | User (full auto no human) | Full-auto pipeline: auto-approve uploads, auto-hide reports, no reviewer queue. DPDP legal contacts remain humans as required | PRD-MVP, ARCHITECTURE-PLAN, SUPABASE-PLAN, DATA-MODEL-SPEC, ROADMAP, FOUNDER-STARTUP-GAPS, student-ai-super-app-complete-feature-list.md, README |
 | 2026-09-21 | User (services india + md) | India services catalog created. New SERVICES-INDIA.md. No code | SERVICES-INDIA, README |
 | 2026-09-21 | User (all ai features md) | AI features catalog created. New AI-FEATURES.md with cost tiers. No code | AI-FEATURES, README |
+| 2026-09-21 | User (remove flashcards) | Flashcards removed v0.15.0 for AI and storage cost, revision via notes plus tests | student-ai-super-app-complete-feature-list.md, PRD-MVP, ARCHITECTURE-PLAN, DATA-MODEL-SPEC, ROADMAP, AI-FEATURES, README |

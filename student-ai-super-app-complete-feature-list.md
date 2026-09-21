@@ -143,35 +143,7 @@ Weak Topic Identification
 Revision Recommendations
 Study Progress Analysis
 
-4. Flashcards & Anki-Style Spaced Repetition
-AI Flashcard Generation
-Flashcards from PDFs
-Flashcards from Notes
-Flashcards from Specific Topics
-Flashcards from Chapters
-Manual Flashcard Creation
-Edit and Delete Flashcards
-Question-and-Answer Flashcards
-Definition-Based Flashcards
-Formula-Based Flashcards
-Formula Rendering with Live Preview, Crisp Display, Text Fallback, and Error Preview
-Image-Supported Flashcards
-Rich-Text Flashcard Editor
-Deck Creation
-Subdeck Creation
-Subject-Wise Deck Organization
-Topic-Wise Deck Organization
-Flashcard Bookmarking
-Daily Flashcard Review
-Anki-Style Spaced Repetition
-Review Scheduling
-Again / Hard / Good / Easy Review Ratings
-Due Flashcard Notifications
-Flashcard Learning Progress
-Deck-Wise Statistics
-Flashcard Search
-Flashcard Editing Without Resetting Review Progress
-Flashcard Import and Export
+4. Flashcards & Spaced Repetition — REMOVED v0.15.0 to control AI and storage cost. Use notes plus tests for revision. No decks, no Anki scheduling, no due notifications.
 
 5. Timetable & Student Attendance Tracking
 5.1 Timetable Management
@@ -414,6 +386,6 @@ Help and Support
 Feedback and Issue Reporting
 
 Core Student Journey
-Learn → Remember → Practice → Test → Identify Weaknesses → Improve → Track Attendance → Develop Skills → Build Projects → Find Teammates → Discover Opportunities → Prepare for a Career
+Learn → Practice → Test → Identify Weaknesses → Improve → Track Attendance → Develop Skills → Build Projects → Find Teammates → Discover Opportunities → Prepare for a Career
 This feature list combines the app's major modules, including the expanded career roadmap and the combined weekly/date-specific timetable and attendance system.
-Vision update 2026-09-21 v0.10.0: formula rendering lines added to Sections 2.2, 2.3, 4. Prior v0.9.0: student-only scope, P0 academic and DPDP rights added, AI single-definition refs, moderation and diet and attendance rules clarified. Backend and limits live in SUPABASE-PLAN.md and ROADMAP.md, not duplicated here.
+Vision update 2026-09-21 v0.15.0: flashcards Sec 4 removed for AI and storage cost, revision via notes plus tests. Prior v0.10.0: formula rendering lines added to Sections 2.2, 2.3, 4. Prior v0.9.0: student-only scope, P0 academic and DPDP rights added, AI single-definition refs, moderation and diet and attendance rules clarified. Backend and limits live in SUPABASE-PLAN.md and ROADMAP.md, not duplicated here.

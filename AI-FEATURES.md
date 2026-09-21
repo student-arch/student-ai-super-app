@@ -1,6 +1,6 @@
 # AI Features Catalog (Specification Only, No Code)
 
-Version: 0.14.0-approved | Date: 2026-09-21 | Status: Full catalog, cost tiers marked
+Version: 0.15.0-approved | Date: 2026-09-21 | Status: Flashcards removed, cost tiers marked
 
 Scope: every AI-powered feature in vision v0.10.0 plus MVP subset. Student-only, English only, full-auto with no reviewer queue. Server-side AI orchestration only with per-student counters. No prompts, no model selection, no code.
 
@@ -49,12 +49,8 @@ Related: PRD-MVP.md Sec 3.3-3.7, vision Sec 2.2-2.4 plus Sec 3 plus Sec 4, ARCHI
 - MVP: all above within free limits. Weak-topic and revision batching weekly if spend spikes.
 - Trust rule: AI may be wrong, verify with syllabus. Source links where available.
 
-## 5. Flashcard Intelligence (vision Sec 4, PRD Sec 3.7)
-
-- AI flashcard generation from PDFs, notes, topics, chapters.
-- Q/A, definition, formula cards with rendering rule. Image-supported cards basic.
-- Manual create, edit, delete. Editing preserves review progress.
-- MVP: generation within free limits, manual unlimited. Bulk PDF-to-deck deferred first if spend spikes.
+## 5. Flashcard Intelligence — REMOVED v0.15.0
+- Removed to control AI and storage cost. No AI deck generation, no scheduling, no due notifications. Revision via Sec 2 notes, Sec 3 incorrect-answer review and retakes.
 
 ## 6. Cross-Cutting AI Rules (All Features)
 
