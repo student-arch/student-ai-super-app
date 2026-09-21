@@ -1,6 +1,6 @@
 # Roadmap — Phased Delivery Plan
 
-Version: 0.19.0-approved | Date: 2026-09-21 | Status: Read-only users, maintainer seeding only
+Version: 0.19.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, read-only fully consistent
 
 ## Phase 0 — Supabase Setup plus DPDP Readiness (prerequisite) — APPROVED
 - Provision development, staging, production projects.
@@ -20,7 +20,7 @@ Includes:
 - AI doubt assistance, test and mock system subset (single-definition rule) with formula rendering.
 - Revision without flashcards: saved notes, incorrect-answer review, retakes, syllabus checklist. No spaced-repetition scheduling.
 - Weekly timetable, date exceptions, attendance with targets, self-marked only.
-- Student uploads publish via automated checks only. Reports resolve via auto-hide and auto-takedown rules. No college staff accounts. No reviewer queue.
+- Maintainer-seeded library only. Reports resolve via auto-hide and maintainer refresh. No user uploads. No college staff accounts. No reviewer queue.
 
 Exit criteria:
 - Onboarding to dashboard works, including reset and logout-all.

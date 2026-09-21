@@ -1,6 +1,6 @@
 # PRD — MVP Scope
 
-Version: 0.19.0-approved | Date: 2026-09-21 | Status: Read-only users, maintainer-seeded only, no uploads
+Version: 0.19.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, read-only fully consistent
 
 This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md` v0.15.0. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.10.0 are now included below as approved scope for new docs.
 
@@ -18,8 +18,8 @@ Students juggle PYQs, notes, tests, revision, timetable, and attendance across d
 ## 3. In Scope (Phase 1)
 
 ### 3.1 Dashboard and Student Profile
-- Registration, login, logout. Approved auth: Google login and email login only — Google sign-in, email and password, email OTP, password reset via email, logout all devices, college ID verification status. No phone OTP.
-- Profile: college name and ID, department and branch, year and semester, subjects, skills and interests, goals.
+- Registration, login, logout. Approved auth: Google login and email login only — Google sign-in, email and password, email OTP, password reset via email, logout all devices, self-declared college text with no ID file. No phone OTP.
+- Profile: self-declared college name and branch, department, year and semester, subjects, skills and interests, goals.
 - Dashboard widgets: daily progress, upcoming classes, pending tasks, recent activity, recommendations, achievements.
 - Approved additions:
   - Academic record: semester marks entry, SGPA and CGPA calculation, goal tracking.

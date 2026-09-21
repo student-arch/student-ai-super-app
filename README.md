@@ -7,8 +7,8 @@ Core student journey:
 Learn → Practice → Test → Identify Weaknesses → Improve → Track Attendance → Develop Skills → Build Projects → Find Teammates → Discover Opportunities → Prepare for a Career
 
 ## Source of Truth
-- Existing vision list: `student-ai-super-app-complete-feature-list.md` v0.15.0
-  - Last approved edit v0.15.0 with flashcards removal. Prior v0.10.0 formula lines, v0.9.0 student-only + P0 + DPDP rights. Further edits need explicit user approval.
+- Existing vision list: `student-ai-super-app-complete-feature-list.md` v0.19.0
+  - Last approved edit v0.19.0 read-only users, maintainer seeds all, no uploads. Prior v0.15.0 flashcards removal, v0.10.0 formula, v0.9.0 student-only + P0 + DPDP rights. Further edits need explicit user approval.
   - All new documentation references it but does not duplicate it verbatim.
 
 ## Documentation Set (Approved 2026-09-21)
@@ -35,6 +35,6 @@ Learn → Practice → Test → Identify Weaknesses → Improve → Track Attend
 4. Keep all docs consistent when requirements change. COMPLIANCE-DPDP.md is authoritative for DPDP.
 
 ## Status
-- Version: 0.19.0-approved
+- Version: 0.19.1-approved
 - Last updated: 2026-09-21
-- State: Read-only users, maintainer seeds all content. No uploads. First-year free.
+- State: Stale refs fixed, read-only fully consistent. First-year free.

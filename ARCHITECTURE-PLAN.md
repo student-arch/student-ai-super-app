@@ -1,6 +1,6 @@
 # Architecture Plan (No Implementation)
 
-Version: 0.15.0-approved | Date: 2026-09-21 | Status: Flashcards removed, full-auto, no reviewer queue
+Version: 0.19.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, read-only fully consistent
 
 Backend choice: Supabase. Details in SUPABASE-PLAN.md. This file keeps module boundaries and cross-cutting rules.
 
@@ -37,11 +37,11 @@ No permissions are implemented in this doc. This is a specification.
 ## 4. Non-Functional Requirements
 
 - DPDP build-now: app as Data Fiduciary with lawful ground per purpose, processor contracts, accuracy for decisions, safeguards per Rules rule 6, breach notice without delay plus 72-hour Board update path, retention erasure at purpose end, under-18 age gate with verifiable parental consent, access plus 90-day grievance plus nominee, transfer map, SDF watch. Full guide in COMPLIANCE-DPDP.md. Build now for 13 May 2027 duties.
-- Privacy: purpose limitation for college ID with masking, data export and account deletion flows, AI training opt-out to be decided.
+- Privacy: purpose limitation for self-declared college text with no ID files collected, data export and account deletion flows, AI training opt-out to be decided.
 - Reliability: timetable exception rule must hold — date-specific changes affect only that date.
 - Availability: dashboard loads with cached timetable even if content library is slow.
 - Accessibility: keyboard navigation, readable contrast, scalable text. Language: English only for MVP. Regional languages, text-to-speech, font scaling deferred to Phase 2 proposal. Formulas carry text fallback plus screen-reader labels.
-- Content rendering: single formula rendering rule for notes, tests, flashcards, materials, doubt answers — LaTeX-style input, live preview, crisp display, cached for offline viewing, error preview on invalid syntax.
+- Content rendering: single formula rendering rule for notes, tests, materials, doubt answers — LaTeX-style input, live preview, crisp display, cached for offline viewing, error preview on invalid syntax. No flashcards.
 - Scalability: PYQ search by college, university, regulation version, subject, year.
 - Auditability: attendance recalculation traceable to class changes.
 

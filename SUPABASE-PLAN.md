@@ -1,6 +1,6 @@
 # Supabase Backend Plan (Specification Only, No Code)
 
-Version: 0.19.0-approved | Date: 2026-09-21 | Status: Read-only users, maintainer seeding only
+Version: 0.19.1-approved | Date: 2026-09-21 | Status: Stale refs fixed, read-only fully consistent
 
 This document records Supabase as the approved backend platform for the Student AI Super-App MVP. It contains planning descriptions only. No SQL, no policy code, no API code, no keys.
 
@@ -44,10 +44,9 @@ Related docs: ARCHITECTURE-PLAN.md for module boundaries, DATA-MODEL-SPEC.md for
 - personal-uploads-private: removed in read-only model. No personal PDFs, photos, or drafts stored.
 - college-id-private: removed. College is self-declared text with no ID file. Never collect ID files.
 - note-exports-private: owner-only generated exports of seeded content for offline reading.
-- flashcard-media-private: owner-only images attached to cards.
 - community-media-gated: reserved for Phase 3. Auto-filtered, auto-hidden on report thresholds.
 
-Rules: private-by-default. Automated checks set approval status from pending to approved or rejected with reason codes. Download allowed subject to rights. Retention periods per DATA-MODEL-SPEC.md Open Decisions, erasure at purpose end.
+Rules: private-by-default. Maintainer-seeded status gates shared reads. Reports trigger maintainer refresh with audit log. Download allowed subject to rights. Retention periods per DATA-MODEL-SPEC.md Open Decisions, erasure at purpose end.
 
 ## 5. Access Control Principles (Described, Not Coded) — read-only student-only
 
@@ -100,14 +99,14 @@ Rules: private-by-default. Automated checks set approval status from pending to 
 
 Starter locks APPROVED 2026-09-21, enforced for first-year free access:
 - AI free: 5 notes, 3 tests, 5 summaries per student per day for 12 months from launch. Paid tier deferred to year 2.
-- Storage: 100 MB per student for personal uploads.
+- Storage: shared seeded library plus per-student annotations and exports only. No personal uploads. Size shared library separately from per-student export cache.
 - Channels: email plus push only.
 - Projects: 1 paid prod max plus free dev and staging. No 3-paid setup in initial version.
 
 Capacity targets APPROVED 2026-09-21 (plan-dependent, load-test before launch):
-- Phase 1 target: 1,000 registered students on paid Supabase project. Planning max: ~100 GB personal storage plus shared PYQ library, ~13,000 AI calls per day at full free-limit use.
+- Phase 1 target: 1,000 registered read-only students on paid Supabase project. Planning max: shared seeded library plus per-student annotation and export cache, ~13,000 AI calls per day at full free-limit use.
 - Phase 2 target: 10,000 registered students. Requires prod region choice, read scaling, storage lifecycle, auto-check throughput, grievance staffing for 90-day cap, SDF watch.
-- Pilot: 100 waitlist users, ~10 GB plus ~1,300 AI calls per day max.
+- Pilot: 100 waitlist read-only users on seeded library plus ~1,300 AI calls per day max.
 - Cost heads to track monthly: Supabase project tier, file storage overage, database backups, email provider volume, push provider volume, domain, AI provider calls and tokens. No limits quoted here because vendor pricing changes — confirm against current pricing before launch.
 
 Still open requiring input:
