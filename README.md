@@ -25,6 +25,7 @@ Learn → Remember → Practice → Test → Identify Weaknesses → Improve →
 | `COMPLIANCE-DPDP.md` | DPDP build-now guide: fiduciary duties, breach, retention, children, rights, transfers, SDF watch. Spec only, not legal advice |
 | `FOUNDER-STARTUP-GAPS.md` | First-time founder gaps: users, content, money, legal beyond DPDP, launch, metrics, owners. Spec only |
 | `SERVICES-INDIA.md` | India MVP services catalog: required services, India constraints, out-of-scope, open choices. Spec only, no code |
+| `AI-FEATURES.md` | AI features catalog: materials, notes, tests, doubts, flashcards, cross-cutting rules, cost tiers. Spec only, no code |
 | `DOCUMENTATION-GUIDE.md` | Consistency rules and approval workflow |
 
 ## Workflow Rules
@@ -34,6 +35,6 @@ Learn → Remember → Practice → Test → Identify Weaknesses → Improve →
 4. Keep all docs consistent when requirements change. COMPLIANCE-DPDP.md is authoritative for DPDP.
 
 ## Status
-- Version: 0.13.0-approved
+- Version: 0.14.0-approved
 - Last updated: 2026-09-21
-- State: India services catalog added. Full-auto student-only MVP. Capacity 100/1k/10k.
+- State: AI features catalog added. India services done. Full-auto student-only MVP.
