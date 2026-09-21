@@ -1,6 +1,6 @@
 # Architecture Plan (No Implementation)
 
-Version: 0.8.1-approved | Date: 2026-09-21 | Status: Consistency fix, vision list untouched
+Version: 0.9.1-approved | Date: 2026-09-21 | Status: English-only MVP, vision v0.9.0 applies
 
 Backend choice: Supabase. Details in SUPABASE-PLAN.md. This file keeps module boundaries and cross-cutting rules.
 
@@ -41,7 +41,7 @@ No permissions are implemented in this doc. This is a specification.
 - Privacy: purpose limitation for college ID with masking, data export and account deletion flows, AI training opt-out to be decided.
 - Reliability: timetable exception rule must hold — date-specific changes affect only that date.
 - Availability: dashboard loads with cached timetable even if content library is slow.
-- Accessibility: keyboard navigation, readable contrast, scalable text.
+- Accessibility: keyboard navigation, readable contrast, scalable text. Language: English only for MVP. Regional languages, text-to-speech, font scaling deferred to Phase 2 proposal.
 - Scalability: PYQ search by college, university, regulation version, subject, year.
 - Auditability: attendance recalculation traceable to class changes.
 

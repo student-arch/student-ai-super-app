@@ -1,6 +1,6 @@
 # PRD — MVP Scope
 
-Version: 0.8.1-approved | Date: 2026-09-21 | Status: Duplicate removed, vision list untouched
+Version: 0.9.1-approved | Date: 2026-09-21 | Status: English-only MVP, vision v0.9.0 applies
 
 This PRD defines a buildable MVP subset of `student-ai-super-app-complete-feature-list.md`. It does not modify that file. P0 enhancements from FEATURE-GAPS.md v0.2.0 are now included below as approved scope for new docs.
 
@@ -98,13 +98,13 @@ Acceptance: marking holiday does not lower percentage; setting 75% target highli
 ## 6. Non-Goals for This Document
 - No UI design, no API contracts, no database implementation. See ARCHITECTURE-PLAN.md and DATA-MODEL-SPEC.md for plans.
 
-## 7. Open Questions Resolved in v0.2.0, v0.4.0, v0.8.0
+## 7. Open Questions Resolved in v0.2.0, v0.4.0, v0.8.0, v0.9.1
 - Who approves uploads? Internal reviewer, not college staff. Approved v0.8.0.
 - Attendance: self-marked only, plus rule that date-specific changes never mutate weekly template. Faculty verification excluded. Approved v0.8.0.
 - AI single-definition rule approved.
 - Auth locked in v0.4.0: Google login and email login only. Phone OTP excluded.
+- Language locked in v0.9.1: English only for MVP. Regional languages deferred to Phase 2 proposal, see ROADMAP.md.
 
 ## 8. Open Questions Still Requiring User Decision
 1. AI daily limits for free users? Starter applied: 5 notes, 3 tests, 5 summaries per day. Paid tier open.
-2. Supported languages for MVP: English only?
-3. Offline requirement for MVP?
+2. Offline requirement for MVP?
