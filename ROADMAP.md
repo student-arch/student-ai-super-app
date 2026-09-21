@@ -25,7 +25,7 @@ Exit criteria:
 - Onboarding to dashboard works, including reset and logout-all.
 - PYQ search, view, annotate, bookmark works.
 - PDF upload to summary works. Syllabus checklist percent-complete works.
-- Timed MCQ test with history works, including formula questions.
+- Timed MCQ test with history works, including formula questions. Report-wrong-question creates reviewer triage item.
 - Spaced repetition rescheduling works, including formula cards.
 - Holiday and cancelled classes do not lower attendance.
 - Contributor submit to reviewer approve works.

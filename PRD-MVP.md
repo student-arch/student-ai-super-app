@@ -61,7 +61,7 @@ Acceptance: topic notes can be saved, edited, searched, and exported.
 - Difficulty selection, custom test, timed mode, exam simulation.
 - Auto-evaluation for MCQ and True/False, explanations, incorrect-answer review, history, retake, performance analysis.
 
-Acceptance: timed MCQ test auto-scores, shows explanations, stores history.
+Acceptance: timed MCQ test auto-scores, shows explanations, stores history. Student can report a wrong question or explanation for reviewer triage.
 
 ### 3.6 AI Study Assistant (subset)
 - Doubt clearing, topic and chapter explanation, step-by-step, simplified explanations, examples, follow-ups.

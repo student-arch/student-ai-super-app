@@ -1,6 +1,6 @@
 # Supabase Backend Plan (Specification Only, No Code)
 
-Version: 0.9.1-approved | Date: 2026-09-21 | Status: Vision v0.9.0 applies, all aligned
+Version: 0.10.0-approved | Date: 2026-09-21 | Status: Vision v0.10.0 applies, all aligned
 
 This document records Supabase as the approved backend platform for the Student AI Super-App MVP. It contains planning descriptions only. No SQL, no policy code, no API code, no keys.
 

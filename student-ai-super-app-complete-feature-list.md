@@ -416,4 +416,4 @@ Feedback and Issue Reporting
 Core Student Journey
 Learn → Remember → Practice → Test → Identify Weaknesses → Improve → Track Attendance → Develop Skills → Build Projects → Find Teammates → Discover Opportunities → Prepare for a Career
 This feature list combines the app's major modules, including the expanded career roadmap and the combined weekly/date-specific timetable and attendance system.
-Vision update 2026-09-21: student-only scope, P0 academic and DPDP rights added, AI single-definition refs, moderation and diet and attendance rules clarified. Backend and limits live in SUPABASE-PLAN.md and ROADMAP.md, not duplicated here.
+Vision update 2026-09-21 v0.10.0: formula rendering lines added to Sections 2.2, 2.3, 4. Prior v0.9.0: student-only scope, P0 academic and DPDP rights added, AI single-definition refs, moderation and diet and attendance rules clarified. Backend and limits live in SUPABASE-PLAN.md and ROADMAP.md, not duplicated here.

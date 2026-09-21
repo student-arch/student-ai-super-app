@@ -1,4 +1,4 @@
-Version: 0.9.1-approved | Date: 2026-09-21 | Status: Vision v0.9.0 applied, all aligned.
+Version: 0.10.0-approved | Date: 2026-09-21 | Status: Vision v0.10.0 applies, all aligned.
 
 > Rule: Nothing here modifies `student-ai-super-app-complete-feature-list.md`. Original vision file remains read-only. Approvals below apply to new docs only.
 

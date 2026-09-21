@@ -1,6 +1,6 @@
 # Compliance — DPDP Build-Now Guide (Specification Only, No Code)
 
-Version: 0.9.1-approved | Date: 2026-09-21 | Status: Vision v0.9.0 applies, all aligned
+Version: 0.10.0-approved | Date: 2026-09-21 | Status: Vision v0.10.0 applies, all aligned
 
 Plain-English overview for founders. Not legal advice. Check the DPDP Act 2023, DPDP Rules 2025, commencement notification, and legal counsel for your exact product and launch date.
 
