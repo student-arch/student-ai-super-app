@@ -1,6 +1,6 @@
 # Documentation Guide — Consistency and Approval Workflow
 
-Version: 0.12.0-approved | Date: 2026-09-21
+Version: 0.13.0-approved | Date: 2026-09-21
 
 ## 1. Scope
 - Create and maintain `.md` files only. No code generation.
@@ -31,6 +31,7 @@ Version: 0.12.0-approved | Date: 2026-09-21
 - `SUPABASE-PLAN.md`: backend choice, service mapping, buckets, access principles. Spec only, no code.
 - `COMPLIANCE-DPDP.md`: DPDP duties summary. Spec only, not legal advice.
 - `FOUNDER-STARTUP-GAPS.md`: startup gaps beyond product. Spec only.
+- `SERVICES-INDIA.md`: India services catalog. Spec only, no code.
 
 ## 5. Change Log Format
 When a change is approved, append here:
@@ -55,3 +56,4 @@ When a change is approved, append here:
 | 2026-09-21 | User (okey alignment) | Align all to v0.10.0, vision footer v0.10.0, report-wrong-question in Phase 1 exit | FEATURE-GAPS, COMPLIANCE-DPDP, FOUNDER-STARTUP-GAPS, SUPABASE-PLAN, PRD-MVP, ROADMAP |
 | 2026-09-21 | User (how many users) | Capacity targets 100 pilot / 1k Phase 1 / 10k Phase 2 plus monthly cost heads, plan-dependent | SUPABASE-PLAN, FOUNDER-STARTUP-GAPS, README |
 | 2026-09-21 | User (full auto no human) | Full-auto pipeline: auto-approve uploads, auto-hide reports, no reviewer queue. DPDP legal contacts remain humans as required | PRD-MVP, ARCHITECTURE-PLAN, SUPABASE-PLAN, DATA-MODEL-SPEC, ROADMAP, FOUNDER-STARTUP-GAPS, student-ai-super-app-complete-feature-list.md, README |
+| 2026-09-21 | User (services india + md) | India services catalog created. New SERVICES-INDIA.md. No code | SERVICES-INDIA, README |
