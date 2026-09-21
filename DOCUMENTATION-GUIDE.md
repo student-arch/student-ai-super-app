@@ -1,6 +1,6 @@
 # Documentation Guide — Consistency and Approval Workflow
 
-Version: 0.8.1-approved | Date: 2026-09-21
+Version: 0.9.0-approved | Date: 2026-09-21
 
 ## 1. Scope
 - Create and maintain `.md` files only. No code generation.
@@ -48,3 +48,4 @@ When a change is approved, append here:
 | 2026-09-21 | User (okey do it starters) | Starters locked: pilot TBD with 100 waitlist, free 5 notes 3 tests 5 summaries per day, 100MB. Vision list untouched | FOUNDER-STARTUP-GAPS, SUPABASE-PLAN, ROADMAP, README |
 | 2026-09-21 | User (student-only) | Student-only: no college staff login, self-marked attendance, internal reviewers. Faculty display-only. Vision list untouched | PRD-MVP, ARCHITECTURE-PLAN, SUPABASE-PLAN, ROADMAP, DATA-MODEL-SPEC, README |
 | 2026-09-21 | User (read all check) | Consistency fix v0.8.1: FEATURE auth+roles, COMPLIANCE version, FOUNDER money, PRD dedupe, SUPABASE limits+roles, DATA faculty display-only, ROADMAP qualifier. Vision list untouched | All docs |
+| 2026-09-21 | User (improve vision) | Vision list improved with approval: student-only header, P0 auth/academic/DPDP rights, annotation/OCR/lecture-link/contributor, AI single-refs, attendance/moderation/diet/privacy clarified | student-ai-super-app-complete-feature-list.md, README |

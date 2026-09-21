@@ -1,14 +1,18 @@
 Student AI Super-App — Complete Feature List
 A comprehensive student platform covering exam preparation, AI-powered learning, attendance tracking, career development, student communities, events, and personal productivity.
+Student-only app: students are the only login type. No college staff login. Content review and safety are handled by internal ops, not college staff.
 
 1. Dashboard & Student Profile
 Personalized Student Dashboard
-Student Registration and Login
-Student Profile Creation
-College Name and College ID Details
+Student Registration and Login — Google login and email login only, no phone OTP
+Password Reset and Logout All Devices
+College ID Verification by Internal Reviewer Only
 Department / Branch Selection
 Academic Year and Semester Selection
 Subjects and Syllabus Management
+Syllabus Completion Tracking — Unit-Wise Checklist and Percent-Complete
+Semester Marks Entry with SGPA and CGPA Calculation and Goals
+Assignment Tracker with Due Dates and Status
 Student Skills and Interests
 Academic Goals and Career Goals
 Daily Learning Progress
@@ -18,6 +22,10 @@ Recent Activity
 Personalized Recommendations
 Achievements and Milestones
 Profile Editing and Management
+Data Access Export with Sharing List
+Grievance Request with 90-Day Response Cap
+Nominee Recording and Consent Withdrawal
+Age Gate with Verifiable Parental Consent for Under-18
 
 2. Exam & Study Preparation
 2.1 Question Paper Library
@@ -33,7 +41,8 @@ Chapter-Wise Questions
 Question Paper Search and Filtering
 Question Paper Bookmarking
 Downloadable Question Papers
-Question Paper PDF Viewer
+Question Paper PDF Viewer with Highlight, Note, and Bookmark Anchors
+Student Contributor Submit Flow with Internal Reviewer Approve and Reject
 Recently Viewed Papers
 Organize Saved Question Papers
 2.2 Study Materials
@@ -42,8 +51,9 @@ Subject-Wise Study Materials
 Topic-Wise Study Materials
 Chapter-Wise Study Materials
 Syllabus-Based Study Materials
-PDF Study Material Viewer
+PDF Study Material Viewer with Highlight, Note, and Bookmark Anchors
 Upload Personal Study PDFs
+Photo-to-Text Import via OCR
 PDF-to-Study-Material Conversion
 PDF Content Summarization
 Important Topics Extraction
@@ -51,12 +61,15 @@ Key Points and Definitions Extraction
 Formula Extraction
 Important Questions Extraction
 Study Material Bookmarking
+Student Contributor Submit Flow with Internal Reviewer Approve and Reject
 Offline Study Material Access
 2.3 Notes Generation
-AI-Generated Notes
+AI-Generated Notes — Defined Once Here, Referenced in Section 3
 Notes for Specific Topics
 Notes for Specific Chapters
 Notes from Uploaded PDFs
+Notes from Photo Imports
+Notes from Lecture Links with Source Attribution
 Short Revision Notes
 Detailed Study Notes
 Important Definitions
@@ -69,8 +82,8 @@ Edit and Save Generated Notes
 Export Notes
 Search Saved Notes
 2.4 Test and Mock Exam System
-AI Test Generator
-AI Mock-Test Generator
+AI Test Generator — Defined Once Here, Referenced in Section 3
+AI Mock-Test Generator — Defined Once Here, Referenced in Section 3
 Practice Tests
 Subject-Wise Tests
 Topic-Wise Tests
@@ -118,9 +131,9 @@ Follow-Up Questions
 Personalized Learning Recommendations
 AI Question Generation
 AI Study-Material Generation
-AI Notes Generation
-AI Test Generation
-AI Mock-Test Generation
+AI Notes Generation — See Section 2.3 Single Definition
+AI Test Generation — See Section 2.4 Single Definition
+AI Mock-Test Generation — See Section 2.4 Single Definition
 PDF Content Understanding
 PDF Question Answering
 Important Topic Identification
@@ -162,7 +175,7 @@ Flashcard Import and Export
 Weekly Timetable Setup — Enter or upload the regular weekly timetable.
 Day-Wise Timetable — View classes scheduled for each day.
 Period-Wise Timetable — Display individual periods with their subjects and timings.
-Subject and Classroom Details — Store subject names, faculty details, and classroom information.
+Subject and Classroom Details — Store subject names, faculty display names, and classroom information. Faculty names are display-only, no staff login.
 Semester-Based Timetable — Maintain a timetable for the current semester.
 Timetable Editing — Add, edit, or remove regular timetable periods.
 Timetable Updates — Update the recurring timetable when the semester schedule changes.
@@ -177,6 +190,7 @@ Classroom Changes — Update the classroom for a particular class.
 Holiday Management — Mark holidays when regular classes do not take place.
 Restore Regular Timetable — Return to the recurring schedule after a date-specific exception.
 5.3 Attendance Management
+Self-Marked Attendance Only — No Faculty Verification, No College Staff Login
 Quick Attendance Marking — Mark each class as Present, Absent, or Unmarked.
 Period-Wise Attendance — Record attendance for individual periods.
 Subject-Wise Attendance — Calculate attendance separately for each subject.
@@ -290,6 +304,7 @@ Discussion Posts
 Questions and Answers
 Community Announcements
 Community Event Sharing
+Report Post and User, Block User, Spam Filter, Removal Audit Trail by Internal Ops
 
 9. Project Development & Hackathon Support
 Project Idea Discovery
@@ -326,7 +341,7 @@ Seminar Reminders
 Saved GK and Current Affairs Resources
 
 11. Fitness & Student Wellness
-Health Planner and Student Diet Planner are excluded.
+Health Planner and Student Diet Planner are excluded. General wellness reminders stay in scope.
 Fitness Tracking
 Daily Activity Tracking
 Workout Activity Logging
@@ -380,19 +395,22 @@ Attendance Analytics
 Achievement Tracking
 
 14. Settings, Privacy & Account Management
-Account Settings
+Account Settings with Nominee Recording
 Profile Management
 Notification Preferences
-Privacy Settings
+Privacy Settings with Data Access Export and Sharing List
+Grievance Redressal Contact with 90-Day Response Cap
+Consent Withdrawal and Age Gate with Verifiable Parental Consent for Under-18
 Student Profile Visibility Controls
 Community Participation Controls
 Team Invitation Preferences
 Saved Content Management
 Offline Content Management
-Data and Account Management
+Data and Account Management with Erasure at Purpose End
 Help and Support
 Feedback and Issue Reporting
 
 Core Student Journey
 Learn → Remember → Practice → Test → Identify Weaknesses → Improve → Track Attendance → Develop Skills → Build Projects → Find Teammates → Discover Opportunities → Prepare for a Career
 This feature list combines the app's major modules, including the expanded career roadmap and the combined weekly/date-specific timetable and attendance system.
+Vision update 2026-09-21: student-only scope, P0 academic and DPDP rights added, AI single-definition refs, moderation and diet and attendance rules clarified. Backend and limits live in SUPABASE-PLAN.md and ROADMAP.md, not duplicated here.

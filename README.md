@@ -33,6 +33,6 @@ Learn → Remember → Practice → Test → Identify Weaknesses → Improve →
 4. Keep all docs consistent when requirements change. COMPLIANCE-DPDP.md is authoritative for DPDP.
 
 ## Status
-- Version: 0.8.1-approved
+- Version: 0.9.0-approved
 - Last updated: 2026-09-21
-- State: Consistency fix v0.8.1 all docs aligned. Student-only. Original vision list untouched.
+- State: Vision improved with student-only + P0 + DPDP rights. All docs aligned.
